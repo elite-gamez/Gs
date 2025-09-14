@@ -54,7 +54,7 @@
       <button id="closeChangelog">&times;</button>
       <h2>Changelog</h2>
       <ul id="changelogList">
-        <li>v1.0 - Initial release</li>
+        <li>v13.0 - Initial release</li>
         <li>v1.1 - Added Games</li>
       </ul>
     </div>
@@ -75,12 +75,12 @@
     resizeCanvas();
 
     function createSnowflakes() {
-      for (let i = 0; i < 100; i++) {
+      for (let i = 0; i < 150; i++) { 
         snowflakes.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          r: Math.random() * 2 + 1, 
-          d: Math.random() * 2 + 1 
+          r: Math.random() * 3 + 1, 
+          d: Math.random() * 2 + 1  
         });
       }
     }
