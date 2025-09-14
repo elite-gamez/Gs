@@ -70,5 +70,11 @@
     "description": "A 2D online shooter is a multiplayer game where players compete in a two-dimensional space, either with a side-scrolling or top-down perspective. Players typically use a variety of weapons to eliminate opponents and complete objectives in different game modes",
     "image": "images/2d.jpeg",
     "url": "g/2D Shooting.html"
+  },
+  {
+    "title": "3Dash",
+    "description": "a 3D auto-scrolling rhythm platformer game, similar to Geometry Dash, but with a unique 3D perspective and an advanced level editor",
+    "image": "images/dash.jpg",
+    "url": "g/3Dash.html"
   }
 ]
