@@ -139,15 +139,9 @@ function openGame(game) {
   };
 }
 
-
-closeModal.onclick = () => {
-  gameModal.style.display = "none";
-  gameFrame.src = "about:blank";
-};
-
+closeModal.onclick = () => (gameModal.style.display = "none");
 closeChangelog.onclick = () => (changelogModal.style.display = "none");
 changelogBtn.onclick = () => (changelogModal.style.display = "flex");
-
 
 function updateGameCount() {
   gameCountElement.textContent = `Games: ${gameContainer.children.length}`;
