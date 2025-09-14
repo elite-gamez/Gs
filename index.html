@@ -6,11 +6,6 @@
   <title>Elite Gamez</title>
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    body {
-      margin: 0;
-      background: #0b0b0b; 
-      overflow-x: hidden;
-    }
     #snowCanvas {
       position: fixed;
       top: 0;
@@ -19,6 +14,10 @@
       height: 100%;
       pointer-events: none;
       z-index: -1;
+    }
+    body {
+      margin: 0;
+      background: #0b0b0b; /* ensure snow is visible */
     }
   </style>
 </head>
@@ -59,12 +58,13 @@
       <button id="closeChangelog">&times;</button>
       <h2>Changelog</h2>
       <ul id="changelogList">
-        <li>v1.0 - Initial release</li>
+        <li>v1.330 - Initial release</li>
         <li>v1.1 - Added Games</li>
       </ul>
     </div>
   </div>
 
+  <!-- Snow effect -->
   <script>
     const canvas = document.getElementById("snowCanvas");
     const ctx = canvas.getContext("2d");
@@ -119,17 +119,9 @@
 
     createSnowflakes();
     updateSnow();
-
-    const closeModal = document.getElementById("closeModal");
-    const gameModal = document.getElementById("gameModal");
-    const gameFrame = document.getElementById("gameFrame");
-
-    closeModal.onclick = () => {
-      gameModal.style.display = "none";
-      gameFrame.src = "about:blank";
-    };
   </script>
 
-  <script src="js/script.js"></script> 
+  <!-- Original game script -->
+  <script src="js/script.js"></script>
 </body>
 </html>
