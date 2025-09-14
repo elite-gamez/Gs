@@ -64,5 +64,11 @@
     "description": "a fan-made, 2D demake of the classic video game, offering a pixel-art, intense adventure in the DOOM universe",
     "image": "images/doom.png",
     "url": "g/2Doom.html"
+  },
+  {
+    "title": "Shooter 2D Online",
+    "description": "A 2D online shooter is a multiplayer game where players compete in a two-dimensional space, either with a side-scrolling or top-down perspective. Players typically use a variety of weapons to eliminate opponents and complete objectives in different game modes",
+    "image": "images/2d.jpeg",
+    "url": "g/2D Shooting.html"
   }
 ]
