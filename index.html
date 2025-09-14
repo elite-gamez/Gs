@@ -6,6 +6,11 @@
   <title>Elite Gamez</title>
   <link rel="stylesheet" href="css/style.css" />
   <style>
+    body {
+      margin: 0;
+      background: #0b0b0b; 
+      overflow-x: hidden;
+    }
     #snowCanvas {
       position: fixed;
       top: 0;
@@ -54,13 +59,11 @@
       <button id="closeChangelog">&times;</button>
       <h2>Changelog</h2>
       <ul id="changelogList">
-        <li>v13.0 - Initial release</li>
+        <li>v1.0 - Initial release</li>
         <li>v1.1 - Added Games</li>
       </ul>
     </div>
   </div>
-
-  <script src="js/script.js"></script>
 
   <script>
     const canvas = document.getElementById("snowCanvas");
@@ -75,12 +78,12 @@
     resizeCanvas();
 
     function createSnowflakes() {
-      for (let i = 0; i < 150; i++) { 
+      for (let i = 0; i < 150; i++) {
         snowflakes.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          r: Math.random() * 3 + 1, 
-          d: Math.random() * 2 + 1  
+          r: Math.random() * 3 + 1,
+          d: Math.random() * 2 + 1
         });
       }
     }
@@ -92,7 +95,7 @@
       for (let i = 0; i < snowflakes.length; i++) {
         const f = snowflakes[i];
         ctx.moveTo(f.x, f.y);
-        ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2, true);
+        ctx.arc(f.x, f.y, f.r, 0, Math.PI*2, true);
       }
       ctx.fill();
       moveSnowflakes();
@@ -101,7 +104,7 @@
     function moveSnowflakes() {
       for (let i = 0; i < snowflakes.length; i++) {
         const f = snowflakes[i];
-        f.y += f.d; 
+        f.y += f.d;
         if (f.y > canvas.height) {
           f.x = Math.random() * canvas.width;
           f.y = -10;
@@ -123,8 +126,10 @@
 
     closeModal.onclick = () => {
       gameModal.style.display = "none";
-      gameFrame.src = "about:blank"; 
+      gameFrame.src = "about:blank";
     };
   </script>
+
+  <script src="js/script.js"></script> 
 </body>
 </html>
