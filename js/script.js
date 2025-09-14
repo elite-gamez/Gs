@@ -19,7 +19,6 @@ const exportBtn = document.getElementById("exportBtn");
 const importBtn = document.getElementById("importBtn");
 const discordBtn = document.getElementById("discordBtn");
 
-// Open Discord link
 discordBtn.onclick = () =>
   window.open("https://discord.gg/FGK4VBJTyd", "_blank");
 
@@ -47,7 +46,6 @@ function openGame(game) {
   gameTitle.textContent = game.title;
   gameModal.style.display = "flex";
 
-  // Download button
   downloadBtn.onclick = () => {
     const a = document.createElement("a");
     a.href = game.url;
@@ -55,14 +53,12 @@ function openGame(game) {
     a.click();
   };
 
-  // Fullscreen button
   fullscreenBtn.onclick = () => {
     if (gameFrame.requestFullscreen) gameFrame.requestFullscreen();
     else if (gameFrame.webkitRequestFullscreen)
       gameFrame.webkitRequestFullscreen();
   };
 
-  // Open in about:blank reliably
   aboutBlankBtn.onclick = () => {
     const newTab = window.open("about:blank", "_blank");
     if (newTab) {
@@ -83,7 +79,6 @@ function openGame(game) {
     }
   };
 
-  // Open in blob
   blobBtn.onclick = () => {
     fetch(game.url)
       .then((res) => res.text())
@@ -95,7 +90,6 @@ function openGame(game) {
       .catch((err) => alert("Failed to open game in blob: " + err));
   };
 
-  // Export save data
   exportBtn.onclick = () => {
     const exportData = {
       cookies: document.cookie,
@@ -112,7 +106,6 @@ function openGame(game) {
     URL.revokeObjectURL(a.href);
   };
 
-  // Import save data
   importBtn.onclick = () => {
     const input = document.createElement("input");
     input.type = "file";
@@ -146,17 +139,14 @@ function openGame(game) {
   };
 }
 
-// Close modals
 closeModal.onclick = () => (gameModal.style.display = "none");
 closeChangelog.onclick = () => (changelogModal.style.display = "none");
 changelogBtn.onclick = () => (changelogModal.style.display = "flex");
 
-// Update game count
 function updateGameCount() {
   gameCountElement.textContent = `Games: ${gameContainer.children.length}`;
 }
 
-// Search filter
 searchInput.addEventListener("input", () => {
   const filter = searchInput.value.toLowerCase();
   Array.from(gameContainer.children).forEach((card) => {
