@@ -15,65 +15,6 @@
       pointer-events: none;
       z-index: -1;
     }
-    header {
-      position: fixed;
-      top: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      background: rgba(0,0,0,0.7);
-      padding: 10px 20px;
-      border-radius: 10px;
-      z-index: 10;
-    }
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.9);
-      justify-content: center;
-      align-items: center;
-      z-index: 20;
-    }
-    .modal-content {
-      background: #111;
-      padding: 20px;
-      border-radius: 10px;
-      width: 90%;
-      max-width: 900px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    #gameFrame {
-      width: 100%;
-      height: 500px;
-      border: none;
-      border-radius: 10px;
-    }
-    .controls button { margin-right: 5px; }
-    #gameContainer {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 100px;
-      padding: 10px;
-      justify-content: center;
-    }
-    .game-card {
-      background: #222;
-      border-radius: 10px;
-      padding: 10px;
-      width: 180px;
-      text-align: center;
-      cursor: pointer;
-      transition: transform 0.2s;
-    }
-    .game-card:hover { transform: scale(1.05); }
-    .game-card img { width: 100%; border-radius: 5px; }
   </style>
 </head>
 <body>
@@ -114,10 +55,12 @@
       <h2>Changelog</h2>
       <ul id="changelogList">
         <li>v1.0 - Initial release</li>
-        <li>v1.44 - Added Games</li>
+        <li>v1.1 - Added Games</li>
       </ul>
     </div>
   </div>
+
+  <script src="js/script.js"></script>
 
   <script>
     const canvas = document.getElementById("snowCanvas");
@@ -136,8 +79,8 @@
         snowflakes.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          r: Math.random() * 2 + 1,
-          d: Math.random() + 1,
+          r: Math.random() * 2 + 1, 
+          d: Math.random() * 2 + 1 
         });
       }
     }
@@ -158,7 +101,7 @@
     function moveSnowflakes() {
       for (let i = 0; i < snowflakes.length; i++) {
         const f = snowflakes[i];
-        f.y += Math.pow(f.d, 1) + 1;
+        f.y += f.d; 
         if (f.y > canvas.height) {
           f.x = Math.random() * canvas.width;
           f.y = -10;
@@ -174,102 +117,14 @@
     createSnowflakes();
     updateSnow();
 
-    const gameContainer = document.getElementById("gameContainer");
-    const gameCountElement = document.getElementById("gameCount");
-    const searchInput = document.getElementById("searchInput");
-
+    const closeModal = document.getElementById("closeModal");
     const gameModal = document.getElementById("gameModal");
     const gameFrame = document.getElementById("gameFrame");
-    const gameTitle = document.getElementById("gameTitle");
-    const closeModal = document.getElementById("closeModal");
-
-    const changelogModal = document.getElementById("changelogModal");
-    const changelogBtn = document.getElementById("changelogBtn");
-    const closeChangelog = document.getElementById("closeChangelog");
-
-    const downloadBtn = document.getElementById("downloadBtn");
-    const fullscreenBtn = document.getElementById("fullscreenBtn");
-    const aboutBlankBtn = document.getElementById("aboutBlankBtn");
-    const blobBtn = document.getElementById("blobBtn");
-    const exportBtn = document.getElementById("exportBtn");
-    const importBtn = document.getElementById("importBtn");
-    const discordBtn = document.getElementById("discordBtn");
-
-    discordBtn.onclick = () =>
-      window.open("https://discord.gg/FGK4VBJTyd", "_blank");
-
-    let gamesData = [];
-    fetch("games.json")
-      .then(res => res.json())
-      .then(games => {
-        gamesData = games;
-        games.forEach(game => {
-          const card = document.createElement("div");
-          card.className = "game-card";
-          card.innerHTML = `
-            <img src="${game.image}" alt="${game.title}">
-            <h2>${game.title}</h2>
-            <p>${game.description}</p>
-          `;
-          card.querySelector("img").addEventListener("click", () => openGame(game));
-          gameContainer.appendChild(card);
-        });
-        gameCountElement.textContent = `Games: ${gameContainer.children.length}`;
-      });
-
-    function openGame(game) {
-      gameFrame.src = "about:blank";
-
-      gameFrame.src = game.url;
-      gameTitle.textContent = game.title;
-      gameModal.style.display = "flex";
-
-      downloadBtn.onclick = () => {
-        const a = document.createElement("a");
-        a.href = game.url;
-        a.download = `${game.title}.html`;
-        a.click();
-      };
-
-      fullscreenBtn.onclick = () => {
-        if (gameFrame.requestFullscreen) gameFrame.requestFullscreen();
-        else if (gameFrame.webkitRequestFullscreen) gameFrame.webkitRequestFullscreen();
-      };
-
-      aboutBlankBtn.onclick = () => {
-        const newTab = window.open("about:blank", "_blank");
-        if (newTab) {
-          newTab.document.write(`<iframe src="${game.url}" style="width:100vw;height:100vh;border:none;"></iframe>`);
-          newTab.document.close();
-        }
-      };
-
-      blobBtn.onclick = () => {
-        fetch(game.url)
-          .then(res => res.text())
-          .then(html => {
-            const blob = new Blob([html], { type: "text/html" });
-            const blobUrl = URL.createObjectURL(blob);
-            window.open(blobUrl, "_blank");
-          });
-      };
-    }
 
     closeModal.onclick = () => {
       gameModal.style.display = "none";
       gameFrame.src = "about:blank"; 
     };
-
-    closeChangelog.onclick = () => (changelogModal.style.display = "none");
-    changelogBtn.onclick = () => (changelogModal.style.display = "flex");
-
-    searchInput.addEventListener("input", () => {
-      const filter = searchInput.value.toLowerCase();
-      Array.from(gameContainer.children).forEach(card => {
-        const title = card.querySelector("h2").textContent.toLowerCase();
-        card.style.display = title.includes(filter) ? "flex" : "none";
-      });
-    });
   </script>
 </body>
 </html>
