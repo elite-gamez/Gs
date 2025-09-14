@@ -58,5 +58,11 @@
     "description": "a puzzle game where players match identical cupcake tiles on a grid to create higher-value, more elaborate cupcakes, aiming to reach the ultimate 2048 cupcake",
     "image": "images/2048cake.jpg",
     "url": "g/2048 cupcakes.html"
+  },
+  {
+    "title": "2Doom",
+    "description": "a fan-made, 2D demake of the classic video game, offering a pixel-art, intense adventure in the DOOM universe",
+    "image": "images/doom.png",
+    "url": "g/2Doom.html"
   }
 ]
