@@ -42,8 +42,10 @@ fetch("games.json")
   });
 
 function openGame(game) {
+  // Stop previous game completely
   gameFrame.src = "about:blank";
 
+  // Open new game
   gameFrame.src = game.url;
   gameTitle.textContent = game.title;
   gameModal.style.display = "flex";
@@ -141,14 +143,17 @@ function openGame(game) {
   };
 }
 
+// CLOSE MODALS
 closeModal.onclick = () => {
   gameModal.style.display = "none";
+  // Stop game completely
   gameFrame.src = "about:blank";
 };
 
 closeChangelog.onclick = () => (changelogModal.style.display = "none");
 changelogBtn.onclick = () => (changelogModal.style.display = "flex");
 
+// SEARCH FUNCTIONALITY
 function updateGameCount() {
   gameCountElement.textContent = `Games: ${gameContainer.children.length}`;
 }
