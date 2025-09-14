@@ -1,0 +1,56 @@
+[
+  {
+    "title": "1",
+    "description": "Divide the numbers and get to the 1 tile!",
+    "image": "images/1.png",
+    "url": "g/1.html"
+  },
+  {
+    "title": "10 Bullets",
+    "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
+    "image": "images/10-bullets.png",
+    "url": "g/10-bullets.html"
+  },
+  {
+    "title": " 10 Minutes Till Dawn",
+    "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
+    "image": "images/10.png",
+    "url": "g/10 Minutes Till Dawn.html"
+  },
+  {
+    "title": "10-103 Null Kevin",
+    "description": "a 2021 two-dimensional, side-scrolling action-horror game developed by Nerdspartan that serves as a sequel to their earlier work, 10-103",
+    "image": "images/Kevin.png",
+    "url": "g/10-103 Null Kevin.html"
+  },
+  {
+    "title": "12 Mini Battles",
+    "description": "1v1 local multiplayer games where players compete in a variety of challenges like sports, racing, and combat to be declared the champion",
+    "image": "images/12.png",
+    "url": "g/12 Mini Battles.html"
+  },
+  {
+    "title": "1 On 1 Soccer",
+    "description": "a one-on-one confrontation between a single attacker and a single defender",
+    "image": "images/soccer.png",
+    "url": "g/1 On 1 Soccer.html"
+  },
+  {
+    "title": "1 On 1 Tennis",
+    "description": "one player on each side of the net hits the ball back and forth over the net until a point is scored",
+    "image": "images/tennis.jpg",
+    "url": "g/1 On 1 Tennis.html"
+  },
+  {
+    "title": "1v1 lol",
+    "description": " a fast-paced, free-to-play multiplayer battle royale game available on web browsers, mobile, and PC that combines shooting and building mechanics in a competitive environment",
+    "image": "images/1v1lol.jpg",
+    "url": "g/1v1 lol.html"
+  },
+  {
+    "title": "1v1 lol (2)",
+    "description": "a free-to-play, fast-paced online third-person shooter that combines gunplay with tactical building",
+    "image": "images/1v1.jpeg",
+    "url": "g/1v1loll.html"
+  }
+]
