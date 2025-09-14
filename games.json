@@ -52,5 +52,11 @@
     "description": "a free-to-play, fast-paced online third-person shooter that combines gunplay with tactical building",
     "image": "images/1v1.jpeg",
     "url": "g/1v1loll.html"
+  },
+  {
+    "title": "2048 CupCakes",
+    "description": "a puzzle game where players match identical cupcake tiles on a grid to create higher-value, more elaborate cupcakes, aiming to reach the ultimate 2048 cupcake",
+    "image": "images/2048cakes.jpg",
+    "url": "g/2048 cupcakes.html"
   }
 ]
