@@ -63,6 +63,7 @@
   <script src="js/script.js"></script>
 
   <script>
+    // --- Snow effect ---
     const canvas = document.getElementById("snowCanvas");
     const ctx = canvas.getContext("2d");
     let snowflakes = [];
@@ -116,6 +117,15 @@
 
     createSnowflakes();
     updateSnow();
+
+    const closeModal = document.getElementById("closeModal");
+    const gameModal = document.getElementById("gameModal");
+    const gameFrame = document.getElementById("gameFrame");
+
+    closeModal.onclick = () => {
+      gameModal.style.display = "none";
+      gameFrame.src = "about:blank";
+    };
   </script>
 </body>
 </html>
