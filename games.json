@@ -84,9 +84,45 @@
     "url": "g/3 Slice 2.html"
   },
   {
-    "title": "40xescape",
-    "description": "a series of 40 unique, mouse-controlled escape room puzzles, where players must solve increasingly complex challenges to light up the word 'ESCAPE' above the door to proceed to the next room",
-    "image": "images/40x.jpeg",
-    "url": "g/40xescape.html"
+    "title": "4th And Goal",
+    "description": "a realistic and engaging experience featuring plays from real football playbooks and a 'no punts' rule emphasizing scoring",
+    "image": "images/4th.jpeg",
+    "url": "g/4th And Goal.html"
+  },
+  {
+    "title": "60 Seconds Burger Run",
+    "description": "is a fast-paced online game by Cool Math Games where players must collect ingredients and assemble burgers to serve customers within a strict 60-second time limit.",
+    "image": "images/burger.png",
+    "url": "g/60 Seconds Burger Run.html"
+  },
+  {
+    "title": "60 Seconds Santa Run",
+    "description": "a skill-based, Christmas-themed platformer game where players control Santa Claus to reach the toy factory in under 60 seconds",
+    "image": "images/santaaa.png",
+    "url": "g/60 Seconds Santa Run.html"
+  },
+  {
+    "title": "8 Ball Classic",
+    "description": "a popular cue sport played with a cue ball and 15 object balls, which are divided into solids (1/7) and stripes (9/15)",
+    "image": "images/8ball.jpeg",
+    "url": "g/8 Ball Classic.html"
+  },
+  {
+    "title": "8 Ball Pool",
+    "description": "popular game of billiards where two players compete to pocket their assigned balls (either 'solids' or 'stripes') and then legally sink the black 8-ball to win",
+    "image": "images/classic.jpeg",
+    "url": "g/8 Ball Pool.html"
+  },
+  {
+    "title": "9007199254740992",
+    "description": "Your quest begins at the boundary of reality, where numbers twist into chaos — 9,007,199,254,740,992, the first step beyond safe precision, a realm where every move could shatter logic itself.",
+    "image": "images/6767.png",
+    "url": "g/9007199254740992.html"
+  },
+  {
+    "title": "99 Balls",
+    "description": "a physics-based mobile and online game where players shoot and bounce balls to destroy numbered circles or blocks on the screen before they reach the bottom",
+    "image": "images/99balls.jpeg",
+    "url": "g/99 Balls.html"
   }
 ]
