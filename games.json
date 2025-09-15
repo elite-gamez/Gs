@@ -82,5 +82,11 @@
     "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
     "image": "images/slice.png",
     "url": "g/3 Slice 2.html"
+  },
+  {
+    "title": "40xescape",
+    "description": "a series of 40 unique, mouse-controlled escape room puzzles, where players must solve increasingly complex challenges to light up the word 'ESCAPE' above the door to proceed to the next room",
+    "image": "images/40x.jpeg",
+    "url": "g/40xescape.html"
   }
 ]
