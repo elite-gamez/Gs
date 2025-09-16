@@ -84,6 +84,12 @@
     "url": "g/4th And Goal.html"
   },
   {
+    "title": "3 Slices 2",
+    "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
+    "image": "images/slice.png",
+    "url": "g/3 Slices 2.html"
+  },
+  {
     "title": "60 Seconds Burger Run",
     "description": "is a fast-paced online game by Cool Math Games where players must collect ingredients and assemble burgers to serve customers within a strict 60-second time limit.",
     "image": "images/burger.png",
@@ -124,12 +130,6 @@
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
     "image": "images/abn.jpeg",
     "url": "g/Abandoned.html"
-  },
-  {
-    "title": "3 Slices 2",
-    "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
-    "image": "images/slice.png",
-    "url": "g/3 Slices 2.html"
   },
   {
     "title": "Abandoned 3",
