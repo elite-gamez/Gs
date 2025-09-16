@@ -78,12 +78,6 @@
     "url": "g/3Dash.html"
   },
   {
-    "title": "3 Slices 2",
-    "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
-    "image": "images/slice.png",
-    "url": "g/3 Slices 2.html"
-  },
-  {
     "title": "4th And Goal",
     "description": "a realistic and engaging experience featuring plays from real football playbooks and a 'no punts' rule emphasizing scoring",
     "image": "images/4th.jpeg",
@@ -130,5 +124,11 @@
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
     "image": "images/abn.jpeg",
     "url": "g/Abandoned.html"
+  },
+  {
+    "title": "3 Slices 2",
+    "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
+    "image": "images/slice.png",
+    "url": "g/3 Slices 2.html"
   }
 ]
