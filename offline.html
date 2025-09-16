@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Gamez</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+#snowCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+header {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 40px);
+  background: #111;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  z-index: 100;
+  box-shadow: 0 0 20px #ff660055;
+  border-radius: 12px;
+}
+
+header h1 {
+  margin: 0;
+  color: #ff6600;
+  flex-shrink: 0;
+}
+
+header input {
+  flex: 1;
+  padding: 0.6rem 0.9rem;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+header button {
+  background: #ff6600;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#discordBtn {
+  background: #7289da;
+}
+#discordBtn:hover {
+  background: #5b6eae;
+}
+
+#gameInfo {
+  padding: 8rem 2rem 0.5rem 2rem;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#gameInfo p {
+  margin: 0;
+}
+
+#gameContainer {
+  padding: 0 2rem 2rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.game-card {
+  background: #000;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px #ff660033;
+  transition: 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff660099;
+}
+
+.game-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.game-card h2 {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.game-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.95);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  overflow: auto;
+}
+
+.modal-content {
+  background: #000;
+  max-width: 90vw;
+  width: 900px;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 0 25px #ff660055;
+  text-align: center;
+}
+
+#gameTitle {
+  margin: 0 0 1rem;
+  color: #ff6600;
+  font-size: 1.5rem;
+}
+
+#gameFrame {
+  width: 100%;
+  height: 60vh;
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.controls button {
+  background: linear-gradient(135deg, #ff6600, #ff3300);
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff6600aa;
+}
+
+.modal-content button#closeModal,
+.modal-content button#closeChangelog {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ff3300;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+#changelogModal ul {
+  padding-left: 1.2rem;
+}
+
+#changelogModal li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .modal-content {
+    width: 95vw;
+    padding: 0.8rem 1rem;
+  }
+
+  #gameFrame {
+    height: 50vh;
+  }
+
+  .controls button {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem;
+  }
+
+  #gameTitle {
+    font-size: 1.2rem;
+  }
+}
+</style>
+</head>
+<body>
+<canvas id="snowCanvas"></canvas>
+
+<header>
+<h1>Elite Gamez</h1>
+<input type="text" id="searchInput" placeholder="Search games...">
+<button id="changelogBtn">Changelog</button>
+<button id="discordBtn">Join Discord</button>
+</header>
+
+<div id="gameInfo"><p>Games: 0</p></div>
+<div id="gameContainer"></div>
+
+<div class="modal" id="gameModal">
+  <div class="modal-content">
+    <button id="closeModal">&times;</button>
+    <h2 id="gameTitle"></h2>
+    <iframe id="gameFrame" src="" frameborder="0"></iframe>
+    <div class="controls">
+      <button id="downloadBtn">Download</button>
+      <button id="fullscreenBtn">Fullscreen</button>
+      <button id="aboutBlankBtn">Open in About:blank</button>
+      <button id="blobBtn">Open in Blob URL</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="changelogModal">
+  <div class="modal-content">
+    <button id="closeChangelog">&times;</button>
+    <h2>Changelog</h2>
+    <ul id="changelogList"></ul>
+  </div>
+</div>
+
+<script>
+const canvas=document.getElementById("snowCanvas"),ctx=canvas.getContext("2d");
+let snowflakes=[];
+function resizeCanvas(){canvas.width=window.innerWidth;canvas.height=window.innerHeight;}
+window.addEventListener("resize",resizeCanvas);resizeCanvas();
+for(let i=0;i<150;i++) snowflakes.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,r:Math.random()*3+1,d:Math.random()*2+1});
+function drawSnow(){ctx.clearRect(0,0,canvas.width,canvas.height);ctx.fillStyle="white";ctx.beginPath();for(let f of snowflakes){ctx.moveTo(f.x,f.y);ctx.arc(f.x,f.y,f.r,0,Math.PI*2,true);}ctx.fill();for(let f of snowflakes){f.y+=f.d;if(f.y>canvas.height){f.x=Math.random()*canvas.width;f.y=-10;}}requestAnimationFrame(drawSnow);}
+drawSnow();
+
+const gameContainer=document.getElementById("gameContainer");
+const searchInput=document.getElementById("searchInput");
+const gameInfo=document.getElementById("gameInfo").querySelector("p");
+const gameModal=document.getElementById("gameModal");
+const gameFrame=document.getElementById("gameFrame");
+const gameTitle=document.getElementById("gameTitle");
+const closeModal=document.getElementById("closeModal");
+const downloadBtn=document.getElementById("downloadBtn");
+const fullscreenBtn=document.getElementById("fullscreenBtn");
+const aboutBlankBtn=document.getElementById("aboutBlankBtn");
+const blobBtn=document.getElementById("blobBtn");
+const discordBtn=document.getElementById("discordBtn");
+const changelogBtn=document.getElementById("changelogBtn");
+const changelogModal=document.getElementById("changelogModal");
+const closeChangelog=document.getElementById("closeChangelog");
+const changelogList=document.getElementById("changelogList");
+
+discordBtn.onclick=()=>window.open("https://discord.gg/FGK4VBJTyd","_blank");
+closeModal.onclick=()=>{gameModal.style.display="none";gameFrame.src="about:blank";}
+changelogBtn.onclick=()=>changelogModal.style.display="flex";
+closeChangelog.onclick=()=>changelogModal.style.display="none";
+
+let latestSHA="", gamesData=[];
+
+async function loadGames(){
+    try {
+        const commits=await fetch("https://api.github.com/repos/elite-gamez/elite-gamez.github.io/commits").then(r=>r.json());
+        const newestSHA=commits[0].sha;
+        if(newestSHA!==latestSHA){
+            latestSHA=newestSHA;
+            const gamesURL=`https://cdn.jsdelivr.net/gh/elite-gamez/elite-gamez.github.io@${latestSHA}/games.json?cb=${Date.now()}`;
+            gamesData=await fetch(gamesURL).then(r=>r.json());
+            renderGames();
+            renderChangelog(commits);
+        }
+    } catch(err){ console.error(err); }
+}
+
+function renderGames(){
+    gameContainer.innerHTML="";
+    gamesData.forEach(game=>{
+        const imgURL=`https://rawcdn.githack.com/elite-gamez/elite-gamez.github.io/main/${game.image}`;
+        const card=document.createElement("div");
+        card.className="game-card";
+        card.innerHTML=`<img src="${imgURL}" alt="${game.title}"><h2>${game.title}</h2><p>${game.description}</p>`;
+        card.addEventListener("click",()=>openGame(game));
+        gameContainer.appendChild(card);
+    });
+    gameInfo.textContent=`Games: ${gamesData.length}`;
+}
+
+function openGame(game){
+    const url=`https://rawcdn.githack.com/elite-gamez/elite-gamez.github.io/main/${game.url}`;
+    gameFrame.src=url;
+    gameTitle.textContent=game.title;
+    gameModal.style.display="flex";
+
+    downloadBtn.onclick=()=>{ const a=document.createElement("a"); a.href=url; a.download=game.title+".html"; a.click(); };
+    fullscreenBtn.onclick=()=>{ if(gameFrame.requestFullscreen) gameFrame.requestFullscreen(); else if(gameFrame.webkitRequestFullscreen) gameFrame.webkitRequestFullscreen(); };
+    aboutBlankBtn.onclick=()=>{ const t=window.open("about:blank","_blank"); if(t){ t.document.write(`<html><head><title>${game.title}</title></head><body style="margin:0"><iframe src="${url}" style="width:100vw;height:100vh;border:none;"></iframe></body></html>`); t.document.close(); } else alert("Popup blocked!"); };
+    blobBtn.onclick=()=>{ fetch(url).then(r=>r.text()).then(html=>{ const b=new Blob([html],{type:"text/html"}); window.open(URL.createObjectURL(b),"_blank"); }); };
+}
+
+searchInput.addEventListener("input",()=>{
+    const q=searchInput.value.toLowerCase();
+    Array.from(gameContainer.children).forEach((card,i)=>{
+        const title=gamesData[i].title.toLowerCase();
+        const desc=gamesData[i].description.toLowerCase();
+        card.style.display=title.includes(q)||desc.includes(q)?"flex":"none";
+    });
+});
+
+function renderChangelog(commits){
+    changelogList.innerHTML="";
+    commits.slice(0,10).forEach(c=>{
+        const li=document.createElement("li");
+        li.textContent=`${c.commit.author.date.split("T")[0]} - ${c.commit.message}`;
+        changelogList.appendChild(li);
+    });
+}
+
+loadGames();
+setInterval(loadGames,30000);
+</script>
+</body>
+</html>
