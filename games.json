@@ -1,5 +1,6 @@
 [
-  {  // ================= Number Games ================
+  { "category": "Number Games" },
+  {
     "title": "1",
     "description": "Divide the numbers and get to the 1 tile!",
     "image": "images/1.png",
@@ -12,7 +13,7 @@
     "url": "g/10-bullets.html"
   },
   {
-    "title": " 10 Minutes Till Dawn",
+    "title": "10 Minutes Till Dawn",
     "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
     "image": "images/10.png",
     "url": "g/10 Minutes Till Dawn.html"
@@ -131,7 +132,9 @@
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
   },
-  {    // ================= A Games ================
+
+  { "category": "A Games" },
+  {
     "title": "Abandoned",
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
     "image": "images/abn.jpeg",
@@ -143,6 +146,8 @@
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
   },
+
+  { "category": "B Games" },
   {
     "title": "Basket Random",
     "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
