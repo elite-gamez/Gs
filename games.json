@@ -148,5 +148,11 @@
     "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
     "image": "images/basket.webp",
     "url": "g/BasketRandom.html"
+  },
+  { 
+    "title": "Drive Mad",
+    "description": "a challenging and quirky physics-based driving game where the goal is to reach the finish line by carefully controlling a car on a series of obstacle-filled levels",
+    "image": "images/drive.webp",
+    "url": "g/Drive Mad.html"
   }
 ]
