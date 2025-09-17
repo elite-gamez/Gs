@@ -102,6 +102,12 @@
     "url": "g/60 Seconds Santa Run.html"
   },
   {
+    "title": "2048",
+    "description": "a tile-matching puzzle game played on a 4x4 grid where the goal is to slide tiles and combine identical numbers to reach the 2048 tile",
+    "image": "images/2048.png",
+    "url": "g/2048.html"
+  },
+  {
     "title": "8 Ball Classic",
     "description": "a popular cue sport played with a cue ball and 15 object balls, which are divided into solids (1/7) and stripes (9/15)",
     "image": "images/8ball.jpeg",
