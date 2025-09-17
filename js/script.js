@@ -15,8 +15,6 @@ const downloadBtn = document.getElementById("downloadBtn");
 const fullscreenBtn = document.getElementById("fullscreenBtn");
 const aboutBlankBtn = document.getElementById("aboutBlankBtn");
 const blobBtn = document.getElementById("blobBtn");
-const exportBtn = document.getElementById("exportBtn");
-const importBtn = document.getElementById("importBtn");
 const discordBtn = document.getElementById("discordBtn");
 
 discordBtn.onclick = () =>
@@ -92,53 +90,7 @@ function openGame(game) {
       .catch((err) => alert("Failed to open game in blob: " + err));
   };
 
-  exportBtn.onclick = () => {
-    const exportData = {
-      cookies: document.cookie,
-      localStorage: { ...localStorage },
-      sessionStorage: { ...sessionStorage },
-      indexedDB: {},
-    };
-    const dataStr = JSON.stringify(exportData, null, 2);
-    const blob = new Blob([dataStr], { type: "application/json" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = `${gameTitle.textContent}.data`;
-    a.click();
-    URL.revokeObjectURL(a.href);
-  };
-
-  importBtn.onclick = () => {
-    const input = document.createElement("input");
-    input.type = "file";
-    input.accept = ".data,.json";
-    input.onchange = (e) => {
-      const file = e.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = (event) => {
-        try {
-          const importedData = JSON.parse(event.target.result);
-          if (importedData.cookies) document.cookie = importedData.cookies;
-          if (importedData.localStorage) {
-            for (const key in importedData.localStorage) {
-              localStorage.setItem(key, importedData.localStorage[key]);
-            }
-          }
-          if (importedData.sessionStorage) {
-            for (const key in importedData.sessionStorage) {
-              sessionStorage.setItem(key, importedData.sessionStorage[key]);
-            }
-          }
-          alert("Save imported successfully!");
-        } catch (err) {
-          alert("Failed to import save: " + err.message);
-        }
-      };
-      reader.readAsText(file);
-    };
-    input.click();
-  };
+  // Removed exportBtn and importBtn functionality
 }
 
 closeModal.onclick = () => {
