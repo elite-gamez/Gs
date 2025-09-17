@@ -142,11 +142,5 @@
     "description": " a generic term for an Abandoned House 3 in the game 7 Days to Die",
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
-  },
-  {
-    "title": "Basket Random",
-    "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
-    "image": "images/basket.webp",
-    "url": "g/BasketRandom.html"
   }
 ]
