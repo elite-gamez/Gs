@@ -131,9 +131,7 @@
     "description": "a physics-based mobile and online game where players shoot and bounce balls to destroy numbered circles or blocks on the screen before they reach the bottom",
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
-  },
-
-  // ================= A Games =================
+  },// ================= A Games =================
   {
     "title": "Abandoned",
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
@@ -145,8 +143,7 @@
     "description": " a generic term for an Abandoned House 3 in the game 7 Days to Die",
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
-  },
-    // ================= B Games ================
+  }, // ================= B Games ================
   {
     "title": "Basket Random",
     "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
