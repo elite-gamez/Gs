@@ -1,4 +1,5 @@
 [
+  // ================= Number Games =================
   {
     "title": "1",
     "description": "Divide the numbers and get to the 1 tile!",
@@ -12,8 +13,8 @@
     "url": "g/10-bullets.html"
   },
   {
-    "title": " 10 Minutes Till Dawn",
-    "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
+    "title": "10 Minutes Till Dawn",
+    "description": "a run-based, top-down shooter where players fought waves of Lovecraftian monsters to survive for 10 minutes, creating powerful, unique 'builds' by choosing from various upgrades",
     "image": "images/10.png",
     "url": "g/10 Minutes Till Dawn.html"
   },
@@ -131,6 +132,8 @@
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
   },
+
+  // ================= A Games =================
   {
     "title": "Abandoned",
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
