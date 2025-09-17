@@ -1,5 +1,5 @@
 [
-  {
+  { 
     "title": "1",
     "description": "Divide the numbers and get to the 1 tile!",
     "image": "images/1.png",
@@ -131,7 +131,7 @@
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
   },
-  {    
+  {   
     "title": "Abandoned",
     "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
     "image": "images/abn.jpeg",
@@ -143,7 +143,7 @@
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
   },
-  {
+  { 
     "title": "Basket Random",
     "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
     "image": "images/basket.webp",
