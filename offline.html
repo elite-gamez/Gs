@@ -198,8 +198,7 @@ header button {
   box-shadow: 0 0 15px #ff6600aa;
 }
 
-.modal-content button#closeModal,
-.modal-content button#closeChangelog {
+.modal-content button#closeModal {
   position: absolute;
   top: 15px;
   right: 15px;
@@ -211,14 +210,6 @@ header button {
   height: 40px;
   font-size: 1.3rem;
   cursor: pointer;
-}
-
-#changelogModal ul {
-  padding-left: 1.2rem;
-}
-
-#changelogModal li {
-  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 700px) {
@@ -248,7 +239,6 @@ header button {
 <header>
 <h1>Elite Gamez</h1>
 <input type="text" id="searchInput" placeholder="Search games...">
-<button id="changelogBtn">Changelog</button>
 <button id="discordBtn">Join Discord</button>
 </header>
 
@@ -266,14 +256,6 @@ header button {
       <button id="aboutBlankBtn">Open in About:blank</button>
       <button id="blobBtn">Open in Blob URL</button>
     </div>
-  </div>
-</div>
-
-<div class="modal" id="changelogModal">
-  <div class="modal-content">
-    <button id="closeChangelog">&times;</button>
-    <h2>Changelog</h2>
-    <ul id="changelogList"></ul>
   </div>
 </div>
 
@@ -298,15 +280,9 @@ const fullscreenBtn=document.getElementById("fullscreenBtn");
 const aboutBlankBtn=document.getElementById("aboutBlankBtn");
 const blobBtn=document.getElementById("blobBtn");
 const discordBtn=document.getElementById("discordBtn");
-const changelogBtn=document.getElementById("changelogBtn");
-const changelogModal=document.getElementById("changelogModal");
-const closeChangelog=document.getElementById("closeChangelog");
-const changelogList=document.getElementById("changelogList");
 
 discordBtn.onclick=()=>window.open("https://discord.gg/FGK4VBJTyd","_blank");
 closeModal.onclick=()=>{gameModal.style.display="none";gameFrame.src="about:blank";}
-changelogBtn.onclick=()=>changelogModal.style.display="flex";
-closeChangelog.onclick=()=>changelogModal.style.display="none";
 
 let latestSHA="", gamesData=[];
 
@@ -319,7 +295,6 @@ async function loadGames(){
             const gamesURL=`https://cdn.jsdelivr.net/gh/elite-gamez/elite-gamez.github.io@${latestSHA}/games.json?cb=${Date.now()}`;
             gamesData=await fetch(gamesURL).then(r=>r.json());
             renderGames();
-            renderChangelog(commits);
         }
     } catch(err){ console.error(err); }
 }
@@ -357,15 +332,6 @@ searchInput.addEventListener("input",()=>{
         card.style.display=title.includes(q)||desc.includes(q)?"flex":"none";
     });
 });
-
-function renderChangelog(commits){
-    changelogList.innerHTML="";
-    commits.slice(0,10).forEach(c=>{
-        const li=document.createElement("li");
-        li.textContent=`${c.commit.author.date.split("T")[0]} - ${c.commit.message}`;
-        changelogList.appendChild(li);
-    });
-}
 
 loadGames();
 setInterval(loadGames,30000);
