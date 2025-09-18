@@ -126,6 +126,12 @@
     "url": "g/9007199254740992.html"
   },
   {
+    "title": "40xescape",
+    "description": "a simple, browser-based puzzle game from Bart Bonte's Bontegames collection where you must escape 40 different rooms, each requiring you to figure out how to light up the letters in the word 'ESCAPE' above the door.",
+    "image": "images/40x.jpeg",
+    "url": "g/40xescape.html"
+  },
+  {
     "title": "99 Balls",
     "description": "a physics-based mobile and online game where players shoot and bounce balls to destroy numbered circles or blocks on the screen before they reach the bottom",
     "image": "images/99balls.jpeg",
