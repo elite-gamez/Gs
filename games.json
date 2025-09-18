@@ -162,9 +162,21 @@
     "url": "g/Drive Mad.html"
   },
   { 
-    "title": "Slope",
-    "description": "Roll a ball down endless slopes. Dodge obstacles and stay on track. The speed increases the further you go. Simple controls, endless challenges.",
-    "image": "images/slope.jpeg",
-    "url": "g/slope.html"
+    "title": "Backrooms",
+    "description": "Wander endless yellow halls in the Backrooms. Escape eerie rooms and avoid lurking dangers. The deeper you go, the harder it gets. Simple controls, chilling mystery.",
+    "image": "images/backrooms.jpeg",
+    "url": "g/Backrooms.html"
+  },
+  { 
+    "title": "Bad Parenting",
+    "description": "Bad parenting involves consistent neglect of a child’s emotional, psychological, or physical needs, causing lasting harm regardless of intent.",
+    "image": "images/bad.jpeg",
+    "url": "g/Bad Parenting.html"
+  },
+  { 
+    "title": "Minecraft 1.11.2",
+    "description": "Explore, build, and survive in Minecraft 1.11.2. Craft tools, fight mobs, and shape your world block by block. Endless creativity, adventure, and survival await.",
+    "image": "images/minecraft.jpeg",
+    "url": "g/Minecraft 1.11.2.html"
   }
 ]
