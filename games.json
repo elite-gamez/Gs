@@ -1,169 +1,169 @@
 [
   { 
     "title": "1",
-    "description": "Combine numbers to reach the 1 tile.",
+    "description": "A number puzzle where you combine tiles to reach the ultimate goal of the number 1. Think strategically as each move counts. Every merge brings you closer to victory. Simple rules, but tricky gameplay.",
     "image": "images/1.png",
     "url": "g/1.html"
   },
   {
     "title": "10 Bullets",
-    "description": "Destroy ships with only 10 shots.",
+    "description": "Fire only 10 bullets and try to cause the biggest chain reaction possible. Each hit can explode into more destruction. Timing and accuracy are key to clearing the screen. Can you make every shot count?",
     "image": "images/10-bullets.png",
     "url": "g/10-bullets.html"
   },
   {
     "title": "10 Minutes Till Dawn",
-    "description": "Survive waves of enemies for 10 minutes.",
+    "description": "Survive endless waves of monsters for 10 minutes. Use powerful weapons and upgrades to stay alive. Every second is intense and filled with danger. Only the strongest survive till dawn.",
     "image": "images/10.png",
     "url": "g/10 Minutes Till Dawn.html"
   },
   {
     "title": "10-103 Null Kevin",
-    "description": "A horror side-scroller sequel by Nerdspartan.",
+    "description": "A dark, side-scrolling horror adventure. Explore unsettling environments filled with eerie enemies. Solve puzzles and survive encounters with terrifying creatures. A haunting sequel full of mystery.",
     "image": "images/Kevin.png",
     "url": "g/10-103 Null Kevin.html"
   },
   {
     "title": "12 Mini Battles",
-    "description": "Play quick 1v1 mini-games.",
+    "description": "Challenge a friend in quick-fire mini-games. From sports to combat, each round is unique. The controls are simple but the competition is fierce. See who becomes the ultimate champion.",
     "image": "images/12.png",
     "url": "g/12 Mini Battles.html"
   },
   {
     "title": "1 On 1 Soccer",
-    "description": "Face off in a simple soccer duel.",
+    "description": "A fun and simple soccer duel. One player defends, the other attacks. Outscore your opponent to claim victory. Fast-paced and unpredictable matches every time.",
     "image": "images/soccer.png",
     "url": "g/1 On 1 Soccer.html"
   },
   {
     "title": "1 On 1 Tennis",
-    "description": "Rally back and forth to score points.",
+    "description": "Play a classic tennis showdown. Rally the ball back and forth over the net. Score points by outsmarting your rival. Quick and competitive matches every round.",
     "image": "images/tennis.jpg",
     "url": "g/1 On 1 Tennis.html"
   },
   {
     "title": "1v1 lol",
-    "description": "Shooter meets building in fast matches.",
+    "description": "Shoot, build, and survive in intense battles. Test your aim and building skills against real players. Fast matches keep the action constant. Outsmart and outgun your opponent to win.",
     "image": "images/1v1lol.jpg",
     "url": "g/1v1 lol.html"
   },
   {
     "title": "1v1 lol (2)",
-    "description": "Third-person shooting with building tactics.",
+    "description": "Engage in third-person shooting duels. Build defenses while attacking with precision. Every match tests your reflexes and creativity. Prove you’re the last one standing.",
     "image": "images/1v1.jpeg",
     "url": "g/1v1loll.html"
   },
   {
     "title": "2048 CupCakes",
-    "description": "Merge cupcakes to reach 2048.",
+    "description": "Slide colorful cupcakes on the grid. Merge them to create new and tastier treats. Keep combining until you reach the 2048 cupcake. Addicting, sweet, and fun to play.",
     "image": "images/2048cake.jpg",
     "url": "g/2048 cupcakes.html"
   },
   {
     "title": "2Doom",
-    "description": "A 2D fan remake of DOOM.",
+    "description": "A retro 2D version of DOOM. Fight classic enemies in pixel-art style. Blast your way through fast-paced levels. Old-school action with a new twist.",
     "image": "images/doom.png",
     "url": "g/2Doom.html"
   },
   {
     "title": "2D Shooting Online",
-    "description": "Multiplayer 2D shooting battles.",
+    "description": "Jump into a 2D multiplayer battlefield. Use a variety of weapons to defeat rivals. Play in different maps and modes with friends. Action-packed matches every time.",
     "image": "images/2d.jpeg",
     "url": "g/2D Shooting.html"
   },
   {
     "title": "3Dash",
-    "description": "Geometry Dash in full 3D.",
+    "description": "A 3D twist on Geometry Dash. Jump, dodge, and time your moves perfectly. Create and play levels with the advanced editor. Rhythm, challenge, and creativity collide.",
     "image": "images/dash.jpg",
     "url": "g/3Dash.html"
   },
   {
     "title": "4th And Goal",
-    "description": "Football plays with no punts allowed.",
+    "description": "A football game with real playbook strategies. Run, pass, and score with no punts allowed. Use tactics to outsmart your opponent’s defense. Every play feels like a big game moment.",
     "image": "images/4th.jpeg",
     "url": "g/4th And Goal.html"
   },
   {
     "title": "3 Slices 2",
-    "description": "Cut blocks with only three slices.",
+    "description": "Cut blocks into pieces with just three moves. Drop red ones, float the blue ones. Gravity and timing matter with each slice. Clever puzzles keep you thinking ahead.",
     "image": "images/slice.png",
     "url": "g/3 Slices 2.html"
   },
   {
     "title": "60 Seconds Burger Run",
-    "description": "Serve burgers before time runs out.",
+    "description": "Rush to serve burgers before time runs out. Collect ingredients as fast as you can. Assemble orders and keep the customers happy. A frantic race against the clock.",
     "image": "images/burger.png",
     "url": "g/60 Seconds Burger Run.html"
   },
   {
     "title": "60 Seconds Santa Run",
-    "description": "Guide Santa to the factory in 60s.",
+    "description": "Help Santa reach the toy factory. You only have one minute to succeed. Dodge obstacles and move quickly through the snowy path. A festive test of speed and skill.",
     "image": "images/santaaa.png",
     "url": "g/60 Seconds Santa Run.html"
   },
   {
     "title": "2048",
-    "description": "Slide numbers to reach 2048.",
+    "description": "Slide tiles on the board to combine numbers. Aim to create the legendary 2048 tile. Plan ahead or risk filling up the grid. A modern classic puzzle game.",
     "image": "images/2048.png",
     "url": "g/2048.html"
   },
   {
     "title": "8 Ball Classic",
-    "description": "Play classic 8-ball pool.",
+    "description": "Line up your cue and aim carefully. Pocket solids or stripes to clear the table. Strategic shots set you up for the win. Finish with the 8-ball to claim victory.",
     "image": "images/8ball.jpeg",
     "url": "g/8 Ball Classic.html"
   },
   {
     "title": "8 Ball Pool",
-    "description": "Pocket solids or stripes to win.",
+    "description": "Challenge opponents in realistic pool matches. Call your shots and pocket balls in order. Compete for skill and precision to win. A timeless game of strategy and aim.",
     "image": "images/classic.jpeg",
     "url": "g/8 Ball Pool.html"
   },
   {
     "title": "9007199254740992",
-    "description": "Puzzle in a world beyond numbers.",
+    "description": "Step into a strange number realm. Logic twists and precision is challenged. Every move could shift reality itself. A puzzle beyond ordinary comprehension.",
     "image": "images/6767.png",
     "url": "g/9007199254740992.html"
   },
   {
     "title": "40xescape",
-    "description": "Escape 40 tricky puzzle rooms.",
+    "description": "Escape from 40 unique puzzle rooms. Each challenge requires creative thinking. Solve clues to unlock the way forward. A simple yet clever test of wit.",
     "image": "images/40x.jpeg",
     "url": "g/40xescape.html"
   },
   {
     "title": "99 Balls",
-    "description": "Shoot balls to clear numbered blocks.",
+    "description": "Shoot bouncing balls to break blocks. Each block has a number of hits required. Keep the blocks from reaching the bottom. Addictive and endless gameplay loop.",
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
   },
   {   
     "title": "Abandoned",
-    "description": "Solve puzzles to find your brother.",
+    "description": "Search strange lands for your lost brother. Solve tricky puzzles along the way. Explore eerie worlds full of mystery. A haunting puzzle-adventure experience.",
     "image": "images/abn.jpeg",
     "url": "g/Abandoned.html"
   },
   {
     "title": "Abandoned 3",
-    "description": "Explore a haunted abandoned house.",
+    "description": "Explore an abandoned haunted house. Solve riddles and uncover hidden secrets. Every corner hides something unexpected. A chilling test of bravery and brains.",
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
   },
   { 
     "title": "Basket Random",
-    "description": "Chaotic ragdoll basketball duels.",
+    "description": "Play unpredictable ragdoll basketball. Courts, balls, and rules change constantly. Score baskets before your rival does. Funny, chaotic, and competitive fun.",
     "image": "images/basket.webp",
     "url": "g/BasketRandom.html"
   },
   { 
     "title": "Drive Mad",
-    "description": "Drive carefully through wild obstacles.",
+    "description": "Take control of a wobbly car. Navigate obstacles without flipping over. Each level gets trickier and more creative. Precision driving leads you to victory.",
     "image": "images/drive.webp",
     "url": "g/Drive Mad.html"
   },
   { 
     "title": "Slope",
-    "description": "Roll downhill and dodge obstacles.",
+    "description": "Roll a ball down endless slopes. Dodge obstacles and stay on track. The speed increases the further you go. Simple controls, endless challenges.",
     "image": "images/slope.jpeg",
     "url": "g/slope.html"
   }
