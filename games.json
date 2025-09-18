@@ -160,5 +160,11 @@
     "description": "a challenging and quirky physics-based driving game where the goal is to reach the finish line by carefully controlling a car on a series of obstacle-filled levels",
     "image": "images/drive.webp",
     "url": "g/Drive Mad.html"
+  },
+  { 
+    "title": "Slope",
+    "description": "a fast-paced, arcade-style, endless runner game where players control a ball rolling down an increasingly treacherous, procedurally generated slope, steering it left or right to avoid obstacles like roadblocks and pits",
+    "image": "images/slope.jpeg",
+    "url": "g/slope.html"
   }
 ]
