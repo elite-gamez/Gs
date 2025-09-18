@@ -1,169 +1,169 @@
 [
   { 
     "title": "1",
-    "description": "Divide the numbers and get to the 1 tile!",
+    "description": "Combine numbers to reach the 1 tile.",
     "image": "images/1.png",
     "url": "g/1.html"
   },
   {
     "title": "10 Bullets",
-    "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
+    "description": "Destroy ships with only 10 shots.",
     "image": "images/10-bullets.png",
     "url": "g/10-bullets.html"
   },
   {
-    "title": " 10 Minutes Till Dawn",
-    "description": "arcade-style game where players are limited to 10 shots to destroy as many enemy ships as possible",
+    "title": "10 Minutes Till Dawn",
+    "description": "Survive waves of enemies for 10 minutes.",
     "image": "images/10.png",
     "url": "g/10 Minutes Till Dawn.html"
   },
   {
     "title": "10-103 Null Kevin",
-    "description": "a 2021 two-dimensional, side-scrolling action-horror game developed by Nerdspartan that serves as a sequel to their earlier work, 10-103",
+    "description": "A horror side-scroller sequel by Nerdspartan.",
     "image": "images/Kevin.png",
     "url": "g/10-103 Null Kevin.html"
   },
   {
     "title": "12 Mini Battles",
-    "description": "1v1 local multiplayer games where players compete in a variety of challenges like sports, racing, and combat to be declared the champion",
+    "description": "Play quick 1v1 mini-games.",
     "image": "images/12.png",
     "url": "g/12 Mini Battles.html"
   },
   {
     "title": "1 On 1 Soccer",
-    "description": "a one-on-one confrontation between a single attacker and a single defender",
+    "description": "Face off in a simple soccer duel.",
     "image": "images/soccer.png",
     "url": "g/1 On 1 Soccer.html"
   },
   {
     "title": "1 On 1 Tennis",
-    "description": "one player on each side of the net hits the ball back and forth over the net until a point is scored",
+    "description": "Rally back and forth to score points.",
     "image": "images/tennis.jpg",
     "url": "g/1 On 1 Tennis.html"
   },
   {
     "title": "1v1 lol",
-    "description": " a fast-paced, free-to-play multiplayer battle royale game available on web browsers, mobile, and PC that combines shooting and building mechanics in a competitive environment",
+    "description": "Shooter meets building in fast matches.",
     "image": "images/1v1lol.jpg",
     "url": "g/1v1 lol.html"
   },
   {
     "title": "1v1 lol (2)",
-    "description": "a free-to-play, fast-paced online third-person shooter that combines gunplay with tactical building",
+    "description": "Third-person shooting with building tactics.",
     "image": "images/1v1.jpeg",
     "url": "g/1v1loll.html"
   },
   {
     "title": "2048 CupCakes",
-    "description": "a puzzle game where players match identical cupcake tiles on a grid to create higher-value, more elaborate cupcakes, aiming to reach the ultimate 2048 cupcake",
+    "description": "Merge cupcakes to reach 2048.",
     "image": "images/2048cake.jpg",
     "url": "g/2048 cupcakes.html"
   },
   {
     "title": "2Doom",
-    "description": "a fan-made, 2D demake of the classic video game, offering a pixel-art, intense adventure in the DOOM universe",
+    "description": "A 2D fan remake of DOOM.",
     "image": "images/doom.png",
     "url": "g/2Doom.html"
   },
   {
-    "title": "2D Shotting Online",
-    "description": "A 2D online shooter is a multiplayer game where players compete in a two-dimensional space, either with a side-scrolling or top-down perspective. Players typically use a variety of weapons to eliminate opponents and complete objectives in different game modes",
+    "title": "2D Shooting Online",
+    "description": "Multiplayer 2D shooting battles.",
     "image": "images/2d.jpeg",
     "url": "g/2D Shooting.html"
   },
   {
     "title": "3Dash",
-    "description": "a 3D auto-scrolling rhythm platformer game, similar to Geometry Dash, but with a unique 3D perspective and an advanced level editor",
+    "description": "Geometry Dash in full 3D.",
     "image": "images/dash.jpg",
     "url": "g/3Dash.html"
   },
   {
     "title": "4th And Goal",
-    "description": "a realistic and engaging experience featuring plays from real football playbooks and a 'no punts' rule emphasizing scoring",
+    "description": "Football plays with no punts allowed.",
     "image": "images/4th.jpeg",
     "url": "g/4th And Goal.html"
   },
   {
     "title": "3 Slices 2",
-    "description": "a puzzle game where the player uses three 'slices' to cut apart and remove designated blocks (red and blue) from a screen into a pit, with inverted gravity for blue blocks",
+    "description": "Cut blocks with only three slices.",
     "image": "images/slice.png",
     "url": "g/3 Slices 2.html"
   },
   {
     "title": "60 Seconds Burger Run",
-    "description": "is a fast-paced online game by Cool Math Games where players must collect ingredients and assemble burgers to serve customers within a strict 60-second time limit.",
+    "description": "Serve burgers before time runs out.",
     "image": "images/burger.png",
     "url": "g/60 Seconds Burger Run.html"
   },
   {
     "title": "60 Seconds Santa Run",
-    "description": "a skill-based, Christmas-themed platformer game where players control Santa Claus to reach the toy factory in under 60 seconds",
+    "description": "Guide Santa to the factory in 60s.",
     "image": "images/santaaa.png",
     "url": "g/60 Seconds Santa Run.html"
   },
   {
     "title": "2048",
-    "description": "a tile-matching puzzle game played on a 4x4 grid where the goal is to slide tiles and combine identical numbers to reach the 2048 tile",
+    "description": "Slide numbers to reach 2048.",
     "image": "images/2048.png",
     "url": "g/2048.html"
   },
   {
     "title": "8 Ball Classic",
-    "description": "a popular cue sport played with a cue ball and 15 object balls, which are divided into solids (1/7) and stripes (9/15)",
+    "description": "Play classic 8-ball pool.",
     "image": "images/8ball.jpeg",
     "url": "g/8 Ball Classic.html"
   },
   {
     "title": "8 Ball Pool",
-    "description": "popular game of billiards where two players compete to pocket their assigned balls (either 'solids' or 'stripes') and then legally sink the black 8-ball to win",
+    "description": "Pocket solids or stripes to win.",
     "image": "images/classic.jpeg",
     "url": "g/8 Ball Pool.html"
   },
   {
     "title": "9007199254740992",
-    "description": "Your quest begins at the boundary of reality, where numbers twist into chaos — 9,007,199,254,740,992, the first step beyond safe precision, a realm where every move could shatter logic itself.",
+    "description": "Puzzle in a world beyond numbers.",
     "image": "images/6767.png",
     "url": "g/9007199254740992.html"
   },
   {
     "title": "40xescape",
-    "description": "a simple, browser-based puzzle game from Bart Bonte's Bontegames collection where you must escape 40 different rooms, each requiring you to figure out how to light up the letters in the word 'ESCAPE' above the door.",
+    "description": "Escape 40 tricky puzzle rooms.",
     "image": "images/40x.jpeg",
     "url": "g/40xescape.html"
   },
   {
     "title": "99 Balls",
-    "description": "a physics-based mobile and online game where players shoot and bounce balls to destroy numbered circles or blocks on the screen before they reach the bottom",
+    "description": "Shoot balls to clear numbered blocks.",
     "image": "images/99balls.jpeg",
     "url": "g/99 Balls.html"
   },
   {   
     "title": "Abandoned",
-    "description": "the Through Abandoned series of puzzle-adventure games, where players solve puzzles and explore other worlds to find a missing brother who disappeared while investigating them",
+    "description": "Solve puzzles to find your brother.",
     "image": "images/abn.jpeg",
     "url": "g/Abandoned.html"
   },
   {
     "title": "Abandoned 3",
-    "description": " a generic term for an Abandoned House 3 in the game 7 Days to Die",
+    "description": "Explore a haunted abandoned house.",
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
   },
   { 
     "title": "Basket Random",
-    "description": "a chaotic, two-player 2D arcade game that puts a silly, unpredictable spin on basketball, featuring ragdoll physics, wacky character movements, and constantly changing courts, balls, and rules, all with the simple goal of scoring baskets first to win",
+    "description": "Chaotic ragdoll basketball duels.",
     "image": "images/basket.webp",
     "url": "g/BasketRandom.html"
   },
   { 
     "title": "Drive Mad",
-    "description": "a challenging and quirky physics-based driving game where the goal is to reach the finish line by carefully controlling a car on a series of obstacle-filled levels",
+    "description": "Drive carefully through wild obstacles.",
     "image": "images/drive.webp",
     "url": "g/Drive Mad.html"
   },
   { 
     "title": "Slope",
-    "description": "a fast-paced, arcade-style, endless runner game where players control a ball rolling down an increasingly treacherous, procedurally generated slope, steering it left or right to avoid obstacles like roadblocks and pits",
+    "description": "Roll downhill and dodge obstacles.",
     "image": "images/slope.jpeg",
     "url": "g/slope.html"
   }
