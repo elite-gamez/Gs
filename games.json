@@ -204,6 +204,12 @@
     "url": "g/Hole.io.html"
   },
   { 
+    "title": "Infinite Craft",
+    "description": "Control a black hole and swallow everything in sight! Compete with others, grow bigger, and dominate the city until nothing is left standing.",
+    "image": "images/infinite.png",
+    "url": "g/Infinite Craft.html"
+  },
+  { 
     "title": "Minecraft 1.11.2",
     "description": "Explore, build, and survive in Minecraft 1.11.2. Craft tools, fight mobs, and shape your world block by block. Endless creativity, adventure, and survival await.",
     "image": "images/minecraft.jpeg",
