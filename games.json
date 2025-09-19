@@ -232,5 +232,23 @@
     "description": "Explore, build, and survive in Minecraft 1.11.2. Craft tools, fight mobs, and shape your world block by block. Endless creativity, adventure, and survival await.",
     "image": "images/minecraft.jpeg",
     "url": "g/Minecraft 1.11.2.html"
+  },
+  { 
+    "title": "nzp",
+    "description": "Fight endless waves of zombies in this portable FPS! Survive as long as you can, unlock weapons, and hold your ground against the undead.",
+    "image": "images/nzp.jpeg",
+    "url": "g/nzp.html"
+  },
+  { 
+    "title": "Only Up",
+    "description": "Climb higher and higher through wild obstacles and tricky platforms! One wrong step sends you back down, so keep your balance and see how far you can go.",
+    "image": "images/Only Up.jpeg",
+    "url": "g/Only Up.html"
+  },
+  { 
+    "title": "Punch the Trump",
+    "description": "Step into the ring and take your best shots at Trump! Throw punches, dodge, and see how long you can last in this over-the-top boxing parody.",
+    "image": "images/punchy.jpeg",
+    "url": "g/Punch the Trump.html"
   }
 ]
