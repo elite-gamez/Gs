@@ -168,6 +168,12 @@
     "url": "g/Bad Parenting.html"
   },
   { 
+    "title": "Chicken CS",
+    "description": "Become a blocky battle chicken armed with powerful weapons! Fight in colorful arenas, blast your rivals, and prove who rules the coop in this fast-paced action shooter.",
+    "image": "images/chicken.jpeg",
+    "url": "g/Chickenwar.html"
+  },
+  { 
     "title": "Drive Mad",
     "description": "Take control of a wobbly car. Navigate obstacles without flipping over. Each level gets trickier and more creative. Precision driving leads you to victory.",
     "image": "images/drive.webp",
