@@ -210,6 +210,24 @@
     "url": "g/Infinite Craft.html"
   },
   { 
+    "title": "Jailbreak Obby",
+    "description": "Escape the prison by running, jumping, and dodging deadly traps! Test your parkour skills through tricky obstacle courses and see if you can break free.",
+    "image": "images/jail.jpeg",
+    "url": "g/Jailbreak Obby.html"
+  },
+  { 
+    "title": "Knightmare Tower",
+    "description": "Launch into battle and slice through waves of monsters as you climb the tower! Rescue princesses, upgrade your gear, and see how high you can go in this fast-paced action adventure.",
+    "image": "images/knight.jpeg",
+    "url": "g/Knightmare Tower.html"
+  },
+  { 
+    "title": "Learn to Fly",
+    "description": "Help a determined penguin learn to fly! Launch, glide, and upgrade your gear to soar farther each time in this addictive adventure.",
+    "image": "images/fly.jpeg",
+    "url": "g/Learn to Fly.html"
+  },
+  { 
     "title": "Minecraft 1.11.2",
     "description": "Explore, build, and survive in Minecraft 1.11.2. Craft tools, fight mobs, and shape your world block by block. Endless creativity, adventure, and survival await.",
     "image": "images/minecraft.jpeg",
