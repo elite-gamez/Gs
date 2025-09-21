@@ -240,6 +240,12 @@
     "url": "g/Minecraft 1.11.2.html"
   },
   { 
+    "title": "Minecraft 1.20.1",
+    "description": "Gather, build, and survive in Minecraft 1.20.1. Explore new biomes, craft gear, and unleash your creativity block by block.",
+    "image": "images/minecraft.jpeg",
+    "url": "g/mc1.20_u7.html"
+  },
+  { 
     "title": "nzp",
     "description": "Fight endless waves of zombies in this portable FPS! Survive as long as you can, unlock weapons, and hold your ground against the undead.",
     "image": "images/nzp.jpeg",
