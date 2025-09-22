@@ -49,7 +49,7 @@
   },
   {
     "title": "1v1 lol (2)",
-    "description": "Engage in third-person shooting duels. Build defenses while attacking with precision. Every match tests your reflexes and creativity. Prove you’re the last one standing.",
+    "description": "Engage in third-person shooting duels. Build defenses while attacking with precision. Every match tests your reflexes and creativity. Prove you are the last one standing.",
     "image": "images/1v1.jpeg",
     "url": "g/1v1loll.html"
   },
@@ -163,7 +163,7 @@
   },
   { 
     "title": "Bad Parenting",
-    "description": "Bad parenting involves consistent neglect of a child’s emotional, psychological, or physical needs, causing lasting harm regardless of intent.",
+    "description": "Bad parenting involves consistent neglect of a childs emotional, psychological, or physical needs, causing lasting harm regardless of intent.",
     "image": "images/bad.jpeg",
     "url": "g/Bad Parenting.html"
   },
@@ -310,5 +310,17 @@
     "description": "Waterpool.io is a fun multiplayer game where you splash, bump, and push others out of the pool. Stay afloat, outlast your rivals, and claim victory in the ultimate water brawl.",
     "image": "images/poolllll32.jpeg",
     "url": "g/Waterpool.io.html"
+  },
+  { 
+    "title": "You vs. 100 Skibidi",
+    "description": "You vs. 100 Skibidi is a wild survival game where you face off against a swarm of chaotic Skibidi enemies. Fight, dodge, and outlast the madness to prove you are the last one standing.",
+    "image": "images/skibidi.jpeg",
+    "url": "g/You vs. 100 Skibidi.html"
+  },
+  { 
+    "title": "Zen Word",
+    "description": "Zen Word is a relaxing puzzle game where you connect letters to form words and clear levels. Calm visuals and soothing gameplay make it the perfect way to unwind while sharpening your mind.",
+    "image": "images/zen.jpeg",
+    "url": "g/Zen Word.html"
   }
 ]
