@@ -264,6 +264,18 @@
     "url": "g/Punch the Trump.html"
   },
   { 
+    "title": "Quake III Arena",
+    "description": "Quake III Arena throws you into intense, fast-paced arena battles where reflexes and precision rule. Blast through opponents with iconic weapons and dominate maps in pure multiplayer chaos.",
+    "image": "images/quake.jpeg",
+    "url": "g/Quake III Arena.html"
+  },
+  { 
+    "title": "Ragdoll Archers",
+    "description": "Ragdoll Archers is a physics-based bow battle where wobbly warriors fling arrows in chaotic duels. Aim carefully, adapt to ragdoll physics, and outlast your opponent in hilarious, unpredictable fights.",
+    "image": "images/archer.jpeg",
+    "url": "g/Ragdoll Archers.html"
+  },
+  { 
     "title": "Steal A Brainrot",
     "description": "Steal a Brainrot is a chaotic battle where you snatch brainrot from rivals while protecting your own. Outsmart, dodge, and scheme your way to the crown in nonstop fast-paced fun",
     "image": "images/brainrot.jpeg",
