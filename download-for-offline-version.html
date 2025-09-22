@@ -133,11 +133,20 @@ async function openGame(game){
     gameTitle.textContent = game.title;
     gameModal.style.display = "flex";
 
-    downloadBtn.onclick = () => {
-        const a = document.createElement("a");
-        a.href = url;
-        a.download = game.title+".html";
-        a.click();
+    downloadBtn.onclick = async () => {
+        try {
+            const response = await fetch(url);
+            if(!response.ok) throw new Error("Failed to fetch game file");
+            const blob = await response.blob();
+            const blobUrl = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = blobUrl;
+            a.download = game.title+".html";
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(blobUrl);
+        } catch(err){ alert("Download failed: "+err); }
     };
 
     fullscreenBtn.onclick = () => {
@@ -149,26 +158,31 @@ async function openGame(game){
     aboutBlankBtn.onclick = () => {
         const t = window.open("about:blank","_blank");
         if(t){
-            t.document.write(`<html><head><title>${game.title}</title></head><body style="margin:0"><iframe src="${url}" style="width:100vw;height:100vh;border:none;"></iframe></body></html>`);
-            t.document.close();
+            fetch(url)
+            .then(r=>r.text())
+            .then(html=>{
+                t.document.write(`<html><head><title>${game.title}</title></head><body style="margin:0">${html}</body></html>`);
+                t.document.close();
+            })
+            .catch(err=>alert("Failed to open in about:blank: "+err));
         } else alert("Popup blocked!");
     };
 
     blobBtn.onclick = () => {
         fetch(url)
-        .then((res) => res.text())
-        .then((html) => {
+        .then(res=>res.text())
+        .then(html=>{
             const blob = new Blob([html], { type: "text/html" });
             const blobUrl = URL.createObjectURL(blob);
-            window.open(blobUrl, "_blank");
+            window.open(blobUrl,"_blank");
         })
-        .catch((err) => alert("Failed to open game in blob: " + err));
+        .catch(err=>alert("Failed to open in Blob: "+err));
     };
 }
 
 searchInput.addEventListener("input", () => {
     const filter = searchInput.value.toLowerCase();
-    Array.from(gameContainer.children).forEach((card) => {
+    Array.from(gameContainer.children).forEach(card=>{
         const title = card.querySelector("h2").textContent.toLowerCase();
         card.style.display = title.includes(filter) ? "flex" : "none";
     });
