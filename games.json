@@ -180,6 +180,18 @@
     "url": "g/Chickenwar.html"
   },
   { 
+    "title": "Cluster Rush",
+    "description": "Dash through colorful clusters and avoid obstacles. Collect points, stay fast, and see how far you can go!",
+    "image": "images/cluster.jpeg",
+    "url": "g/Cluster Rush.html"
+  },
+  { 
+    "title": "Crazy Cattle 3D",
+    "description": "Smash the cattle and dodge obstacles in 3D chaos. Collect points, avoid crashes, and master the herd!",
+    "image": "images/craazzzy.jpeg",
+    "url": "g/Crazy Cattle 3D.html"
+  },
+  { 
     "title": "Cuphead",
     "description": "Cuphead. A fast-paced run-and-gun game with 1930s cartoon visuals. Battle bizarre bosses, dodge endless attacks, and test your skills in a tough but rewarding adventure.",
     "image": "images/cuphead.png",
@@ -190,6 +202,18 @@
     "description": "Take control of a wobbly car. Navigate obstacles without flipping over. Each level gets trickier and more creative. Precision driving leads you to victory.",
     "image": "images/drive.webp",
     "url": "g/Drive Mad.html"
+  },
+  { 
+    "title": "Drift Hunters",
+    "description": "Get behind the wheel and race high-speed cars on thrilling tracks. Master sharp drifts, upgrade your vehicles, and compete to become the ultimate drift champion!",
+    "image": "images/drifttt.jpeg",
+    "url": "g/Drift Hunters.html"
+  },
+  { 
+    "title": "Drift Boss",
+    "description": "Take control of your car and race through challenging tracks with precision. Drift around corners, avoid obstacles, and push your skills to dominate every course!",
+    "image": "images/drift.jpeg",
+    "url": "g/Drift Boss.html"
   },
   { 
     "title": "Escape Road",
