@@ -156,6 +156,12 @@
     "url": "g/BasketRandom.html"
   },
   { 
+    "title": "Bloxorz",
+    "description": "Bloxorz. Roll a rectangular block across tricky platforms and solve mind-bending puzzles. Navigate carefully, avoid falling, and reach the goal to advance through challenging levels.",
+    "image": "images/bloxx.jpeg",
+    "url": "g/Bloxorz.html"
+  },
+  { 
     "title": "Backrooms",
     "description": "Wander endless yellow halls in the Backrooms. Escape eerie rooms and avoid lurking dangers. The deeper you go, the harder it gets. Simple controls, chilling mystery.",
     "image": "images/backrooms.jpeg",
