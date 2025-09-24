@@ -1,5 +1,3 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9644663871704669"
-     crossorigin="anonymous"></script>
 const gameContainer = document.getElementById("gameContainer");
 const gameCountElement = document.getElementById("gameCount");
 const searchInput = document.getElementById("searchInput");
@@ -114,3 +112,5 @@ searchInput.addEventListener("input", () => {
     card.style.display = title.includes(filter) ? "flex" : "none";
   });
 });
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9644663871704669"
+     crossorigin="anonymous"></script>
