@@ -103,7 +103,7 @@ let latestSHA = "", gamesData = [];
 
 async function loadGames(){
     try {
-        const commits = await fetch("https://api.github.com/repos/elite-gamez/elite-gamez.github.io/commits").then(r=>r.json());
+        const commits = await fetch("https://api.github.com/repos/elite-gamez/elite-gamez.github.io/commits?sha=main").then(r=>r.json());
         const newestSHA = commits[0].sha;
         if(newestSHA !== latestSHA){
             latestSHA = newestSHA;
