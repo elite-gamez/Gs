@@ -324,6 +324,12 @@
     "url": "g/Steal A Brainrot.html"
   },
   { 
+    "title": "Super Mario 64",
+    "description": "Super Mario 64 is a 3D platformer where Mario explores magical worlds through paintings in Peach’s Castle. Collect stars, defeat Bowser, and save the princess in this classic adventure.",
+    "image": "images/marioo64.jpeg",
+    "url": "g/Super Mario 64.html"
+  },
+  { 
     "title": "slope",
     "description": "Slope is a fast-paced endless runner where you guide a ball down a neon track at breakneck speed. Dodge obstacles, stay on course, and see how far you can roll before the fall",
     "image": "images/slope.jpeg",
@@ -346,6 +352,12 @@
     "description": "ULTRAKILL is a blood-soaked, fast-paced retro FPS where style and speed mean survival. Rip through hordes of demons with brutal weapons, fluid movement, and nonstop carnage.",
     "image": "images/6263452.jpeg",
     "url": "g/Ultrakill.html"
+  },
+  { 
+    "title": "Undertale Yellow",
+    "description": "Undertale Yellow is a fan-made prequel to Undertale starring Clover, the seventh fallen human. Explore the Underground, meet new characters, and decide between mercy or battle.",
+    "image": "images/undertale.jpeg",
+    "url": "g/Undertale Yellow.html"
   },
   { 
     "title": "Volley Random",
