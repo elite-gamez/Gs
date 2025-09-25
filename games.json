@@ -186,6 +186,12 @@
     "url": "g/Cluster Rush.html"
   },
   { 
+    "title": "Call of Duty - Black Ops",
+    "description": "Call of Duty: Black Ops is a first-person shooter set during the Cold War. Engage in intense missions, multiplayer battles, and covert operations to complete your objectives.",
+    "image": "images/duty67.jpeg",
+    "url": "g/Call of Duty - Black Ops.html"
+  },
+  { 
     "title": "Crazy Cattle 3D",
     "description": "Smash the cattle and dodge obstacles in 3D chaos. Collect points, avoid crashes, and master the herd!",
     "image": "images/craazzzy.jpeg",
@@ -202,6 +208,12 @@
     "description": "Take control of a wobbly car. Navigate obstacles without flipping over. Each level gets trickier and more creative. Precision driving leads you to victory.",
     "image": "images/drive.webp",
     "url": "g/Drive Mad.html"
+  },
+  { 
+    "title": "Doom",
+    "description": "Doom is a fast-paced shooter where you battle demons from Hell across futuristic bases and fiery landscapes. Blast through hordes of enemies with powerful weapons in this iconic action game.",
+    "image": "images/doom.webp",
+    "url": "g/Doom.html"
   },
   { 
     "title": "Drift Hunters",
@@ -252,10 +264,28 @@
     "url": "g/Hole.io.html"
   },
   { 
+    "title": "Happy Room",
+    "description": "Happy Room is a physics-based sandbox game where you test weapons and traps on dummies. Experiment with creative setups to cause maximum chaos and destruction.",
+    "image": "images/room67677.jpeg",
+    "url": "g/Happy Room.html"
+  },
+  { 
+    "title": "HEI$T",
+    "description": "HEI$T is an action-packed game where you plan and execute high-stakes robberies. Strategize, avoid security, and collect as much loot as you can.",
+    "image": "images/highist.jpeg",
+    "url": "g/HEI$T.html"
+  },
+  { 
     "title": "Infinite Craft",
-    "description": "Control a black hole and swallow everything in sight! Compete with others, grow bigger, and dominate the city until nothing is left standing.",
+    "description": "Infinite Craft is a sandbox building game where you create and explore endless worlds. Gather resources, craft tools, and build anything you can imagine.",
     "image": "images/infinite.png",
     "url": "g/Infinite Craft.html"
+  },
+  { 
+    "title": "Interactive Buddy",
+    "description": "Interactive Buddy is a sandbox game where you interact with a customizable buddy. Experiment with toys, weapons, and tools to see how they react.",
+    "image": "images/buddyyy.jpeg",
+    "url": "g/Interactive Buddy.html"
   },
   { 
     "title": "Jailbreak Obby",
@@ -325,9 +355,15 @@
   },
   { 
     "title": "Super Mario 64",
-    "description": "Super Mario 64 is a 3D platformer where Mario explores magical worlds through paintings in Peach’s Castle. Collect stars, defeat Bowser, and save the princess in this classic adventure.",
+    "description": "Super Mario 64 is a 3D platformer where Mario explores magical worlds through paintings in Peach is Castle. Collect stars, defeat Bowser, and save the princess in this classic adventure.",
     "image": "images/marioo64.jpeg",
     "url": "g/Super Mario 64.html"
+  },
+  { 
+    "title": "Sonic the Hedgehog",
+    "description": "Sonic the Hedgehog is a high-speed platformer where you race as Sonic to stop Dr. Robotnik. Dash through loops, collect rings, and save your animal friends.",
+    "image": "images/sonicy.jpeg",
+    "url": "g/Sonic the Hedgehog.html"
   },
   { 
     "title": "slope",
@@ -364,6 +400,18 @@
     "description": "Volley Random is a wacky volleyball game where every match feels unpredictable. Jump, flip, and smash the ball with ragdoll physics that keep the chaos fun and hilarious.",
     "image": "images/vollyballr.jpeg",
     "url": "g/Volley Random.html"
+  },
+  { 
+    "title": "Vex",
+    "description": "Vex is a challenging platformer where you navigate deadly traps and obstacles. Test your skills with precise jumps and speed through each level.",
+    "image": "images/vexx1.jpeg",
+    "url": "g/Vex.html"
+  },
+  { 
+    "title": "Villager",
+    "description": "Villager is a sandbox simulation game where you build, trade, and explore your village. Manage resources, customize your home, and interact with quirky villagers.",
+    "image": "images/villager.png",
+    "url": "g/Villager.html"
   },
   { 
     "title": "Waterpool.io",
