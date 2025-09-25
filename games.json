@@ -270,6 +270,12 @@
     "url": "g/Happy Room.html"
   },
   { 
+    "title": "Happy Wheels",
+    "description": "HHappy Wheels is a ragdoll physics game where you navigate deadly obstacle courses. Ride as various characters and survive crazy traps to reach the finish.",
+    "image": "images/wheelshappy.jpeg",
+    "url": "g/Happy Wheels.html"
+  },
+  { 
     "title": "HEI$T",
     "description": "HEI$T is an action-packed game where you plan and execute high-stakes robberies. Strategize, avoid security, and collect as much loot as you can.",
     "image": "images/highist.jpeg",
