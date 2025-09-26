@@ -149,6 +149,12 @@
     "image": "images/abbb.jpeg",
     "url": "g/Abandoned 3.html"
   },
+  {
+    "title": "Amanda the Adventurer",
+    "description": "Amanda the Adventurer is a creepy puzzle-horror game disguised as a children's cartoon. Watch lost VHS tapes, solve eerie clues, and uncover the dark secrets Amanda is hiding.",
+    "image": "images/amanda.jpeg",
+    "url": "g/Amanda the Adventurer.html"
+  },
   { 
     "title": "Basket Random",
     "description": "Play unpredictable ragdoll basketball. Courts, balls, and rules change constantly. Score baskets before your rival does. Funny, chaotic, and competitive fun.",
@@ -210,6 +216,12 @@
     "url": "g/Drive Mad.html"
   },
   { 
+    "title": "Driven Wild",
+    "description": "Driven Wild is an adrenaline-fueled racing game where speed and skill are everything. Dodge obstacles, pull off crazy stunts, and survive as long as you can on the wild roads.",
+    "image": "images/wild.jpeg",
+    "url": "g/Driven Wild.html"
+  },
+  { 
     "title": "Doom",
     "description": "Doom is a fast-paced shooter where you battle demons from Hell across futuristic bases and fiery landscapes. Blast through hordes of enemies with powerful weapons in this iconic action game.",
     "image": "images/doom.webp",
@@ -238,6 +250,12 @@
     "description": "Elastic Face. Stretch, twist, and pull a goofy face like it is made of rubber! Drag different parts and watch it snap back with hilarious expressions. Simple, silly, and endlessly entertaining.",
     "image": "images/facey.jpeg",
     "url": "g/Elastic Face.html"
+  },
+  { 
+    "title": "FNAF",
+    "description": "Survive five nights as a security guard in a haunted pizzeria where animatronics come to life. Watch the cameras, manage your power, and do nott let them catch you in this terrifying survival horror!",
+    "image": "images/fnaf.jpeg",
+    "url": "g/FNAF.html"
   },
   { 
     "title": "FNAF",
