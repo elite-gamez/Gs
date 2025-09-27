@@ -21,27 +21,32 @@ discordBtn.onclick = () =>
   window.open("https://discord.gg/FGK4VBJTyd", "_blank");
 
 let gamesData = [];
+
 fetch("games.json")
   .then((res) => res.json())
   .then((games) => {
     gamesData = games;
-    games.forEach((game) => {
-      const card = document.createElement("div");
-      card.className = "game-card";
-      card.innerHTML = `
-        <img src="${game.image}" alt="${game.title}">
-        <h2>${game.title}</h2>
-        <p>${game.description}</p>
-      `;
-      card.querySelector("img").addEventListener("click", () => openGame(game));
-      gameContainer.appendChild(card);
-    });
-    updateGameCount();
+    renderGames(gamesData);
   });
+
+function renderGames(games) {
+  gameContainer.innerHTML = "";
+  games.forEach((game) => {
+    const card = document.createElement("div");
+    card.className = "game-card";
+    card.innerHTML = `
+      <img src="${game.image}" alt="${game.title}">
+      <h2>${game.title}</h2>
+      <p>${game.description}</p>
+    `;
+    card.querySelector("img").addEventListener("click", () => openGame(game));
+    gameContainer.appendChild(card);
+  });
+  updateGameCount();
+}
 
 function openGame(game) {
   gameFrame.src = "about:blank";
-
   gameFrame.src = game.url;
   gameTitle.textContent = game.title;
   gameModal.style.display = "flex";
@@ -89,8 +94,6 @@ function openGame(game) {
       })
       .catch((err) => alert("Failed to open game in blob: " + err));
   };
-
-  // Removed exportBtn and importBtn functionality
 }
 
 closeModal.onclick = () => {
@@ -102,13 +105,22 @@ closeChangelog.onclick = () => (changelogModal.style.display = "none");
 changelogBtn.onclick = () => (changelogModal.style.display = "flex");
 
 function updateGameCount() {
-  gameCountElement.textContent = `Games: ${gameContainer.children.length}`;
+  const visibleCards = Array.from(gameContainer.children).filter(
+    (card) => card.style.display !== "none"
+  );
+  gameCountElement.textContent = `Games: ${visibleCards.length}`;
 }
 
 searchInput.addEventListener("input", () => {
   const filter = searchInput.value.toLowerCase();
+  let visibleCount = 0;
+
   Array.from(gameContainer.children).forEach((card) => {
     const title = card.querySelector("h2").textContent.toLowerCase();
-    card.style.display = title.includes(filter) ? "flex" : "none";
+    const matches = title.includes(filter);
+    card.style.display = matches ? "flex" : "none";
+    if (matches) visibleCount++;
   });
+
+  gameCountElement.textContent = `Games: ${visibleCount}`;
 });

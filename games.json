@@ -210,6 +210,12 @@
     "url": "g/Cuphead.html"
   },
   { 
+    "title": "Cuphead",
+    "description": "Cuphead. A fast-paced run-and-gun game with 1930s cartoon visuals. Battle bizarre bosses, dodge endless attacks, and test your skills in a tough but rewarding adventure.",
+    "image": "images/cuphead.png",
+    "url": "g/Cuphead.html"
+  },
+  { 
     "title": "Drive Mad",
     "description": "Take control of a wobbly car. Navigate obstacles without flipping over. Each level gets trickier and more creative. Precision driving leads you to victory.",
     "image": "images/drive.webp",
@@ -250,12 +256,6 @@
     "description": "Elastic Face. Stretch, twist, and pull a goofy face like it is made of rubber! Drag different parts and watch it snap back with hilarious expressions. Simple, silly, and endlessly entertaining.",
     "image": "images/facey.jpeg",
     "url": "g/Elastic Face.html"
-  },
-  { 
-    "title": "FNAF",
-    "description": "Survive five nights as a security guard in a haunted pizzeria where animatronics come to life. Watch the cameras, manage your power, and do nott let them catch you in this terrifying survival horror!",
-    "image": "images/fnaf.jpeg",
-    "url": "g/FNAF.html"
   },
   { 
     "title": "FNAF",
