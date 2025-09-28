@@ -34,7 +34,7 @@ function renderGames(games) {
   games.forEach((game) => {
     const card = document.createElement("div");
     card.className = "game-card";
-    card.style.display = "flex"; 
+    card.style.display = "flex"; // ✅ always visible by default
     card.innerHTML = `
       <img src="${game.image}" alt="${game.title}">
       <h2>${game.title}</h2>
@@ -72,7 +72,9 @@ function openGame(game) {
         <html>
           <head>
             <title>${game.title}</title>
-            <style>body,html{margin:0;padding:0;height:100%;overflow:hidden;}</style>
+            <style>
+              body,html{margin:0;padding:0;height:100%;overflow:hidden;}
+            </style>
           </head>
           <body>
             <iframe src="${game.url}" style="width:100vw;height:100vh;border:none;"></iframe>
@@ -102,8 +104,12 @@ closeModal.onclick = () => {
   gameFrame.src = "about:blank";
 };
 
-closeChangelog.onclick = () => (changelogModal.style.display = "none");
-changelogBtn.onclick = () => (changelogModal.style.display = "flex");
+if (closeChangelog) {
+  closeChangelog.onclick = () => (changelogModal.style.display = "none");
+}
+if (changelogBtn) {
+  changelogBtn.onclick = () => (changelogModal.style.display = "flex");
+}
 
 function updateGameCount() {
   const visibleCards = Array.from(gameContainer.children).filter(
@@ -119,7 +125,7 @@ searchInput.addEventListener("input", () => {
   Array.from(gameContainer.children).forEach((card) => {
     const title = card.querySelector("h2").textContent.toLowerCase();
     const description = card.querySelector("p").textContent.toLowerCase();
-    const matches = title.includes(filter) || description.includes(filter); 
+    const matches = title.includes(filter) || description.includes(filter);
     card.style.display = matches ? "flex" : "none";
     if (matches) visibleCount++;
   });
