@@ -34,7 +34,7 @@ function renderGames(games) {
   games.forEach((game) => {
     const card = document.createElement("div");
     card.className = "game-card";
-    card.style.display = "flex"; // ✅ always visible by default
+    card.style.display = "flex";
     card.innerHTML = `
       <img src="${game.image}" alt="${game.title}">
       <h2>${game.title}</h2>
