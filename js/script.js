@@ -34,6 +34,7 @@ function renderGames(games) {
   games.forEach((game) => {
     const card = document.createElement("div");
     card.className = "game-card";
+    card.style.display = "flex"; 
     card.innerHTML = `
       <img src="${game.image}" alt="${game.title}">
       <h2>${game.title}</h2>
@@ -117,7 +118,8 @@ searchInput.addEventListener("input", () => {
 
   Array.from(gameContainer.children).forEach((card) => {
     const title = card.querySelector("h2").textContent.toLowerCase();
-    const matches = title.includes(filter);
+    const description = card.querySelector("p").textContent.toLowerCase();
+    const matches = title.includes(filter) || description.includes(filter); 
     card.style.display = matches ? "flex" : "none";
     if (matches) visibleCount++;
   });
