@@ -186,6 +186,12 @@
     "url": "g/Chickenwar.html"
   },
   { 
+    "title": "Clash Of Vikings",
+    "description": "Clash of Vikings is a fast-paced strategy game where you summon warriors and cast spells to defeat your rival clan. Outsmart your opponent and destroy their base to claim ultimate victory.",
+    "image": "images/clashyy.jpeg",
+    "url": "g/Clash Of Vikings.html"
+  },
+  { 
     "title": "Cluster Rush",
     "description": "Dash through colorful clusters and avoid obstacles. Collect points, stay fast, and see how far you can go!",
     "image": "images/cluster.jpeg",
@@ -342,16 +348,28 @@
     "url": "g/mc1.20_u76.html"
   },
   { 
-    "title": "nzp",
+    "title": "Nazi Zombies Portable",
     "description": "Fight endless waves of zombies in this portable FPS! Survive as long as you can, unlock weapons, and hold your ground against the undead.",
     "image": "images/nzp.jpeg",
     "url": "g/nzp.html"
+  },
+  { 
+    "title": "New York Shark",
+    "description": "New York Shark is a chaotic action game where you control a giant shark wreaking havoc across the city. Bite, smash, and cause destruction as you take down everything in your path.",
+    "image": "images/sharkyyyy.jpeg",
+    "url": "g/New York Shark.html"
   },
   { 
     "title": "Only Up",
     "description": "Climb higher and higher through wild obstacles and tricky platforms! One wrong step sends you back down, so keep your balance and see how far you can go.",
     "image": "images/Only Up.jpeg",
     "url": "g/Only Up.html"
+  },
+  { 
+    "title": "Obby 99% Will Lose",
+    "description": "Obby 99% Will Lose is a challenging obstacle course game that tests your skills and patience. Navigate tricky jumps and traps to reach the end—if you can beat the 99% who fail!",
+    "image": "images/99.jpeg",
+    "url": "g/Obby 99% Will Lose.html"
   },
   { 
     "title": "Punch the Trump",
@@ -370,6 +388,12 @@
     "description": "Ragdoll Archers is a physics-based bow battle where wobbly warriors fling arrows in chaotic duels. Aim carefully, adapt to ragdoll physics, and outlast your opponent in hilarious, unpredictable fights.",
     "image": "images/archer.jpeg",
     "url": "g/Ragdoll Archers.html"
+  },
+  { 
+    "title": "Raft",
+    "description": "Raft is an ocean survival game where you collect drifting debris to build and upgrade your floating home. Explore islands, craft tools, and fight to stay alive against the dangers of the sea.",
+    "image": "images/raftyy.png",
+    "url": "g/Raft.html"
   },
   { 
     "title": "Steal A Brainrot",
@@ -396,16 +420,46 @@
     "url": "g/slope.html"
   },
   { 
+    "title": "Snow Rider 3D",
+    "description": "Snow Rider 3D is a fast-paced endless sledding game where you race down snowy slopes while avoiding obstacles. Collect gifts along the way to unlock new sleds and see how far you can go without crashing.",
+    "image": "images/snowrider.jpeg",
+    "url": "g/Snow Rider 3D.html"
+  },
+  { 
     "title": "Super Mario 63",
     "description": "Super Mario 63 is a fan-made platformer mixing classic Mario with 64 and Sunshine. Explore levels, collect shines, and enjoy a fresh 2D adventure.",
     "image": "images/6363.jpeg",
     "url": "g/Super Mario 63.html"
   },
   { 
+    "title": "Sniper Shot",
+    "description": "Sniper Shot: Bullet Time is a sniper shooting game where you take out enemies with precision. Use slow-motion shots to plan your attacks and complete challenging missions.",
+    "image": "images/snipyrep.jpeg",
+    "url": "g/Sniper Shot.html"
+  },
+  { 
+    "title": "Subway Surfers: Mexico",
+    "description": "Subway Surfers: Mexico takes you through colorful Mexican streets filled with trains and obstacles. Collect coins, dodge obstacles, and unlock new characters and hoverboards as you run.",
+    "image": "images/tacosubway.jpeg",
+    "url": "g/Subway Surfers: Mexico.html"
+  },
+  { 
     "title": "Troll Face Quest 1",
     "description": "Troll Face Quest 1 is a puzzle comedy game packed with tricky levels and ridiculous humor. Solve weird challenges, expect the unexpected, and get ready to be trolled at every turn",
     "image": "images/troll1.jpeg",
     "url": "g/Troll Face Quest 1.html"
+  },
+  { 
+    "title": "Time Shooter 2",
+    "description": "Time Shooter 2 is a first-person shooter where time only moves when you do. Outsmart enemies by freezing time, dodging bullets, and using weapons strategically to clear each level.",
+    "image": "images/shooter22.jpg",
+    "url": "g/Time Shooter 2.html"
+  },
+  { 
+    "title": "Tomb of the Mask",
+    "description": "Tomb of the Mask is an arcade-style maze game where a magical mask lets you climb walls and move at lightning speed. Navigate endless traps, enemies, and obstacles while collecting coins and power-ups.",
+    "image": "images/tomby.webp",
+    "url": "g/Time Shooter 2.html"
   },
   { 
     "title": "Ultrakill",
