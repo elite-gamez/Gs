@@ -240,6 +240,18 @@
     "url": "g/Doom.html"
   },
   { 
+    "title": "Don't Escape",
+    "description": "Don't Escape is a tense point-and-click adventure where every choice matters as you try to survive a deadly situation. Solve puzzles, gather resources, and make split-second decisions to avoid a catastrophic fate.",
+    "image": "images/dontaescapey.jpeg",
+    "url": "g/Don't Escape.html"
+  },
+  { 
+    "title": "Don't Escape 2",
+    "description": "Don't Escape 2 is a survival puzzle game where you must prepare your home to withstand a deadly night. Gather resources, solve challenges, and make smart choices to survive until morning.",
+    "image": "images/dominos.jpeg",
+    "url": "g/Don't Escape 2.html"
+  },
+  { 
     "title": "Drift Hunters",
     "description": "Get behind the wheel and race high-speed cars on thrilling tracks. Master sharp drifts, upgrade your vehicles, and compete to become the ultimate drift champion!",
     "image": "images/drifttt.jpeg",
