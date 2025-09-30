@@ -210,6 +210,12 @@
     "url": "g/Crazy Cattle 3D.html"
   },
   { 
+    "title": "Cookie Clicker",
+    "description": "Cookie Clicker is a popular idle game where you bake cookies by clicking a giant cookie. You can spend cookies on upgrades and buildings to grow your bakery into an endless cookie empire.",
+    "image": "images/cookie.jpeg",
+    "url": "g/Cookie Clicker.html"
+  },
+  { 
     "title": "Cuphead",
     "description": "Cuphead. A fast-paced run-and-gun game with 1930s cartoon visuals. Battle bizarre bosses, dodge endless attacks, and test your skills in a tough but rewarding adventure.",
     "image": "images/cuphead.png",
