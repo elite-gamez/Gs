@@ -288,6 +288,12 @@
     "url": "g/FNAF.html"
   },
   { 
+    "title": "Fancy Pants Adventure 2",
+    "description": "Fancy Pants Adventure 2 is a platformer with a stick-figure hero in orange pants navigating hand-drawn levels. Dash, jump, and flip through fast-paced challenges.",
+    "image": "images/fancyyy.jpeg",
+    "url": "g/Fancy Pants Adventure 2.html"
+  },
+  { 
     "title": "Granny 2",
     "description": "Trapped again—this time with Granny and Grandpa! Sneak, hide, and solve puzzles to escape their house before it is too late.",
     "image": "images/granny2.jpg",
@@ -532,5 +538,11 @@
     "description": "Zen Word is a relaxing puzzle game where you connect letters to form words and clear levels. Calm visuals and soothing gameplay make it the perfect way to unwind while sharpening your mind.",
     "image": "images/zen.jpeg",
     "url": "g/Zen Word.html"
+  },
+  { 
+    "title": "Zuma",
+    "description": "Zuma is a puzzle game where you shoot colored balls to match three or more and stop the chain from reaching the end. Quick thinking and combos keep the action fast and exciting.",
+    "image": "images/zuma.jpeg",
+    "url": "g/Zuma.html"
   }
 ]
