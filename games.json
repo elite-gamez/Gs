@@ -306,6 +306,12 @@
     "url": "g/Gun Spin.html"
   },
   { 
+    "title": "Grow A Garden",
+    "description": "Grow a Garden lets you plant seeds, water them, and watch your garden flourish over time. Strategically care for your plants to create a vibrant and thriving outdoor space.",
+    "image": "images/gag.webp",
+    "url": "g/gag.html"
+  },
+  { 
     "title": "Hole.io",
     "description": "Control a black hole and swallow everything in sight! Compete with others, grow bigger, and dominate the city until nothing is left standing.",
     "image": "images/hole.jpg",
