@@ -408,6 +408,60 @@
     "url": "g/Punch the Trump.html"
   },
   { 
+    "title": "Paper.io",
+    "description": "Paper.io is a multiplayer game where you claim territory by drawing lines. Avoid other players while expanding your area to dominate.",
+    "image": "images/paper.jpeg",
+    "url": "g/Paper.io.html"
+  },
+  { 
+    "title": "Portal 2D",
+    "description": "Portal 2D is a puzzle-platformer where you use portals to navigate tricky levels. Solve challenges by thinking creatively and moving through space in unexpected ways.",
+    "image": "images/eeeeeee.jpeg",
+    "url": "g/Portal 2D.html"
+  },
+  { 
+    "title": "Plazma Burst",
+    "description": "Plazma Burst is a side-scrolling shooter where you battle enemies with futuristic weapons. Complete missions and upgrade your gear to survive intense combat.",
+    "image": "images/plasma.jpeg",
+    "url": "g/Plazma Burst.html"
+  },
+  { 
+    "title": "Pizza Tower",
+    "description": "Pizza Tower is a fast-paced platformer where you dash, jump, and smash through levels to save your pizza. Collect items and defeat enemies in chaotic, high-energy stages.",
+    "image": "images/towea.jpeg",
+    "url": "g/Pizza Tower.html"
+  },
+  { 
+    "title": "Pixel Battlegrounds.io",
+    "description": "Pixel Battlegrounds.io is a battle royale game with blocky, pixelated graphics. Survive, loot weapons, and outlast other players to be the last one standing.",
+    "image": "images/battle223.jpeg",
+    "url": "g/Pixel Battlegrounds.io.html"
+  },
+  { 
+    "title": "Papa's Taco mia",
+    "description": "Papa's Taco Mia is a time-management game where you run a taco shop. Take orders, cook ingredients, and serve customers to earn tips and upgrade your restaurant.",
+    "image": "images/tacomia.jpeg",
+    "url": "g/Papa's Taco mia.html"
+  },
+  { 
+    "title": "Pixel Speedrun",
+    "description": "Pixel Speedrun is a fast-paced platformer where you race through challenging levels as quickly as possible. Dodge obstacles, jump precisely, and beat your best times.",
+    "image": "images/pixy.jpeg",
+    "url": "g/Pixel Speedrun.html"
+  },
+  { 
+    "title": "Portal",
+    "description": "Portal is a puzzle-platformer where you use a portal gun to create gateways and navigate complex test chambers. Solve mind-bending puzzles by thinking creatively and manipulating space.",
+    "image": "images/Portal.jpeg",
+    "url": "g/Portal.html"
+  },
+  { 
+    "title": "Pac-man",
+    "description": "Pac-Man is a classic arcade game where you navigate a maze, eating pellets while avoiding ghosts. Clear all the pellets to advance and rack up a high score.",
+    "image": "images/pacman.png",
+    "url": "g/Pac-man.html"
+  },
+  { 
     "title": "Poly Track",
     "description": "Poly Track takes racing to the next level with smoother controls, sharper visuals, and dynamic tracks. Test your speed, precision, and skill as you compete to set record-breaking times.",
     "image": "images/trackyyy.jpeg",
