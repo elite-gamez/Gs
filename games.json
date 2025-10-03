@@ -240,6 +240,48 @@
     "url": "g/Doom.html"
   },
   { 
+    "title": "Duck Life",
+    "description": "Duck Life is a fun training game where you raise and train a duck to compete in races. By improving skills like running, swimming, flying, and climbing, your duck becomes stronger and faster to win championships.",
+    "image": "images/duck1.png",
+    "url": "g/Duck Life.html"
+  },
+  { 
+    "title": "Duck Life 2",
+    "description": "Duck Life 2 continues the adventure with new challenges and more advanced training options for your duck. Travel through different environments and master new skills to race against tougher opponents.",
+    "image": "images/duck2.jpeg",
+    "url": "g/Duck Life 2.html"
+  },
+  { 
+    "title": "Duck Life 3",
+    "description": "Duck Life 3 lets you take your duck global, competing in races across multiple islands. Train your duck's running, flying, swimming, and climbing skills to become the ultimate champion.",
+    "image": "images/duck3.jpeg",
+    "url": "g/Duck Life 3.html"
+  },
+  { 
+    "title": "Duck Life 4",
+    "description": "Duck Life 4 upgrades the adventure with a fully 3D world and even more races to conquer. Hatch, train, and customize your duck while competing against new rivals to become the ultimate champion.",
+    "image": "images/duck4.jpeg",
+    "url": "g/Duck Life 4.html"
+  },
+  { 
+    "title": "Duck Life 5",
+    "description": "Duck Life 5 lets you explore an expansive world filled with exciting races and challenges. Train your duck’s skills, customize its appearance, and compete to become the ultimate champion across diverse terrains.",
+    "image": "images/duck5.png",
+    "url": "g/Duck Life 5.html"
+  },
+  { 
+    "title": "Duck Life Space",
+    "description": "Duck Life: Space takes your duck training adventure to outer space! Race across alien planets, boost your skills, and compete in zero-gravity challenges to become the galaxy's top duck.",
+    "image": "images/spaceduck.webp",
+    "url": "g/Duck Life Space.html"
+  },
+  { 
+    "title": "Duck Life Battle",
+    "description": "Duck Life: Battle lets you pit your trained ducks against others in fast-paced, strategic battles. Upgrade your ducks abilities and compete online to see who dominates the arena.",
+    "image": "images/duck2241.png",
+    "url": "g/Duck Life Battle.html"
+  },
+  { 
     "title": "Don't Escape",
     "description": "Don't Escape is a tense point-and-click adventure where every choice matters as you try to survive a deadly situation. Solve puzzles, gather resources, and make split-second decisions to avoid a catastrophic fate.",
     "image": "images/dontaescapey.jpeg",
