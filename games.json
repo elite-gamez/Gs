@@ -390,6 +390,108 @@
     "url": "g/Interactive Buddy.html"
   },
   { 
+    "title": "Ice Dodo",
+    "description": "Ice Dodo is a fast-paced platformer where you guide a dodo across icy, obstacle-filled paths. Precision and quick reflexes are key to surviving each level.",
+    "image": "images/icedo.jpg",
+    "url": "g/Ice Dodo.html"
+  },
+  { 
+    "title": "Icy Purple Head",
+    "description": "Icy Purple Head is a physics-based puzzle game where you slide, freeze, and unfreeze a purple head to reach the goal. Timing and clever use of ice mechanics are key to success.",
+    "image": "images/Icy Purple Head.jpeg",
+    "url": "g/Icy Purple Head.html"
+  },
+  { 
+    "title": "Idle Breakout",
+    "description": "Idle Breakout is an addictive idle game that reimagines the classic Breakout. You earn cash to upgrade balls and automate brick-breaking for endless progression.",
+    "image": "images/wrbreak.png",
+    "url": "g/Idle Breakout.html"
+  },
+  { 
+    "title": "Idle Dice",
+    "description": "Idle Dice is an incremental game where you roll dice to earn money and upgrade them. The goal is to build powerful dice combos that generate massive rewards over time.",
+    "image": "images/dice3.jpeg",
+    "url": "g/Idle Dice.html"
+  },
+  { 
+    "title": "Idle Game Dev",
+    "description": "Idle Game Dev is a meta idle game where you develop and upgrade your own idle games. Earn profits, research new genres, and expand your virtual game studio empire.",
+    "image": "images/dev224.jpg",
+    "url": "g/Idle Idle Game Dev.html"
+  },
+  { 
+    "title": "Idle Miner Tycoon",
+    "description": "Idle Miner Tycoon is a management and simulation game where you build and upgrade mines to earn passive income. Hire managers, optimize production, and grow your mining empire.",
+    "image": "images/ghostgirl.jpeg",
+    "url": "g/Idle Miner Tycoon.html"
+  },
+  { 
+    "title": "Indian Truck Simulator",
+    "description": "Indian Truck Simulator is a driving simulation game where you transport cargo across realistic Indian roads and landscapes. Experience authentic trucks, challenging routes, and dynamic weather conditions.",
+    "image": "images/noredeemit.jpg",
+    "url": "g/Indian Truck Simulator.html"
+  },
+  { 
+    "title": "Innkeeper",
+    "description": "Innkeeper is a management simulation game where you run your own tavern. Serve guests, upgrade your inn, and grow your business into a thriving hotspot.",
+    "image": "images/keepdeex.webp",
+    "url": "g/Innkeeper.html"
+  },
+  { 
+    "title": "Into Ruins",
+    "description": "Into Ruins is a survival strategy game where you rebuild civilization after an apocalypse. Manage resources, expand your settlement, and face the challenges of a ruined world.",
+    "image": "images/ruins2.png",
+    "url": "g/Into Ruins.html"
+  },
+  { 
+    "title": "Into Space",
+    "description": "Into Space is a rocket-launching game where you build and upgrade your spacecraft to reach outer space. Balance fuel, speed, and control to soar higher with each attempt.",
+    "image": "images/spaceinto.jpeg",
+    "url": "g/Into Space.html"
+  },
+  { 
+    "title": "Into Space 2",
+    "description": "Into Space 2 is a rocket-building sequel where you continue your mission to reach Mars. Upgrade your ship, manage fuel, and navigate obstacles to conquer the red planet.",
+    "image": "images/23421.jpeg",
+    "url": "g/Into Space 2.html"
+  },
+  { 
+    "title": "Into Space 3",
+    "description": "Into Space 3 is the final chapter of the rocket-launching series, set in deep space. Build advanced ships, gather resources, and survive alien threats on your journey home.",
+    "image": "images/3xms.png",
+    "url": "g/Into Space 3.html"
+  },
+  { 
+    "title": "Into The Deep Web",
+    "description": "Into The Deep Web is a simulation and exploration game that lets you navigate the mysterious layers of the internet. Uncover secrets, avoid dangers, and see how deep you can go.",
+    "image": "images/itdw.png",
+    "url": "g/Into The Deep Web.html"
+  },
+  { 
+    "title": "Intrusion",
+    "description": "Intrusion is a side-scrolling action platformer featuring intense gunfights and physics-based combat. Battle enemies across hostile environments using agility and heavy firepower.",
+    "image": "images/2vsr.jpeg",
+    "url": "g/Intrusion.html"
+  },
+  { 
+    "title": "IQ Ball",
+    "description": "IQ Ball is a physics puzzle game where you use a stretchy, sticky arm to grab targets. Solve clever challenges that test your timing, precision, and problem-solving skills.",
+    "image": "images/baller2.jpeg",
+    "url": "g/IQ Ball.html"
+  },
+  { 
+    "title": "Iron Snout",
+    "description": "Iron Snout is a fast-paced fighting game where you play as a brave pig battling waves of wolves. Use punches, kicks, and weapon throws to survive and rack up combos.",
+    "image": "images/wildvro.jpeg",
+    "url": "g/Iron Snout.html"
+  },
+  { 
+    "title": "Islander",
+    "description": "Islander is a minimalist strategy game where you build and expand settlements on colorful islands. Place buildings efficiently to earn points and unlock new islands to explore.",
+    "image": "images/2d3dv.jpg",
+    "url": "g/Islander.html"
+  },
+  { 
     "title": "Jailbreak Obby",
     "description": "Escape the prison by running, jumping, and dodging deadly traps! Test your parkour skills through tricky obstacle courses and see if you can break free.",
     "image": "images/jail.jpeg",
