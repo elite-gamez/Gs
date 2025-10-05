@@ -180,6 +180,12 @@
     "url": "g/Bad Parenting.html"
   },
   { 
+    "title": "Baldi's Basics",
+    "description": "Baldi's Basics is a creepy, retro-style horror game disguised as an old educational program. Players must solve math problems and collect notebooks while escaping the relentless teacher, Baldi.",
+    "image": "images/bald3.jpg",
+    "url": "g/Baldi's Basics.html"
+  },
+  { 
     "title": "Chicken CS",
     "description": "Become a blocky battle chicken armed with powerful weapons! Fight in colorful arenas, blast your rivals, and prove who rules the coop in this fast-paced action shooter.",
     "image": "images/chicken.jpeg",
