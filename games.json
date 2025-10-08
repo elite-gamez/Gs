@@ -1,11 +1,5 @@
 [
   { 
-    "title": "YouTube",
-    "description": "YouTube is a Google-owned video platform where users can upload, watch, and share videos. It helps people discover new content, channels, and connect with creators",
-    "image": "images/Youtube_logo.png",
-    "url": "g/youtube.html"
-  },
-  { 
     "title": "1",
     "description": "A number puzzle where you combine tiles to reach the ultimate goal of the number 1. Think strategically as each move counts. Every merge brings you closer to victory. Simple rules, but tricky gameplay.",
     "image": "images/1.png",
