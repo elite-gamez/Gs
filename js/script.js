@@ -1,16 +1,11 @@
 const gameContainer = document.getElementById("gameContainer");
-const gameCountElement = document.getElementById("gameCount");
+const gameCountElement = document.getElementById("gameInfo").querySelector("p");
 const searchInput = document.getElementById("searchInput");
 
 const gameModal = document.getElementById("gameModal");
 const gameFrame = document.getElementById("gameFrame");
 const gameTitle = document.getElementById("gameTitle");
 const closeModal = document.getElementById("closeModal");
-
-const changelogModal = document.getElementById("changelogModal");
-const changelogBtn = document.getElementById("changelogBtn");
-const closeChangelog = document.getElementById("closeChangelog");
-
 const downloadBtn = document.getElementById("downloadBtn");
 const fullscreenBtn = document.getElementById("fullscreenBtn");
 const aboutBlankBtn = document.getElementById("aboutBlankBtn");
@@ -27,14 +22,24 @@ fetch("games.json")
   .then((games) => {
     gamesData = games;
     renderGames(gamesData);
-  });
+  })
+  .catch((err) => console.error("Error loading games.json:", err));
 
 function renderGames(games) {
   gameContainer.innerHTML = "";
   games.forEach((game) => {
+    const currentSettings =
+      JSON.parse(localStorage.getItem("elite_gamez_theme_v1")) || DEFAULTS;
+
     const card = document.createElement("div");
     card.className = "game-card";
     card.style.display = "flex";
+
+    card.style.boxShadow = `0 0 ${currentSettings.glowSize}px ${hexToRGBA(
+      currentSettings.glowColor,
+      currentSettings.glowStrength
+    )}`;
+
     card.innerHTML = `
       <img src="${game.image}" alt="${game.title}">
       <h2>${game.title}</h2>
@@ -104,13 +109,6 @@ closeModal.onclick = () => {
   gameFrame.src = "about:blank";
 };
 
-if (closeChangelog) {
-  closeChangelog.onclick = () => (changelogModal.style.display = "none");
-}
-if (changelogBtn) {
-  changelogBtn.onclick = () => (changelogModal.style.display = "flex");
-}
-
 function updateGameCount() {
   const visibleCards = Array.from(gameContainer.children).filter(
     (card) => card.style.display !== "none"
@@ -123,11 +121,18 @@ searchInput.addEventListener("input", () => {
   let visibleCount = 0;
 
   Array.from(gameContainer.children).forEach((card) => {
-    const title = card.querySelector("h2").textContent.toLowerCase();
-    const description = card.querySelector("p").textContent.toLowerCase();
-    const matches = title.includes(filter) || description.includes(filter);
-    card.style.display = matches ? "flex" : "none";
-    if (matches) visibleCount++;
+    const titleElement = card.querySelector("h2");
+    const descriptionElement = card.querySelector("p");
+
+    if (titleElement && descriptionElement) {
+      const title = titleElement.textContent.toLowerCase();
+      const description = descriptionElement.textContent.toLowerCase();
+      const matches = title.includes(filter) || description.includes(filter);
+      card.style.display = matches ? "flex" : "none";
+      if (matches) visibleCount++;
+    } else {
+      card.style.display = "none";
+    }
   });
 
   gameCountElement.textContent = `Games: ${visibleCount}`;
