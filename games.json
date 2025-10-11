@@ -349,7 +349,7 @@
   },
   {
     "title": "Amigo Pancho 6",
-    "description": "In Amigo Pancho 6, Pancho sets off on an adventure through Egypt’s ancient tombs and deserts. Solve clever puzzles and avoid deadly traps to help him rise above the sands to safety!",
+    "description": "In Amigo Pancho 6, Pancho sets off on an adventure through Egypt's ancient tombs and deserts. Solve clever puzzles and avoid deadly traps to help him rise above the sands to safety!",
     "image": "images/pan23.jpeg",
     "url": "g/Amigo Pancho 6.html"
   },
@@ -358,6 +358,132 @@
     "description": "In Among Us, crewmates work together to complete tasks aboard a spaceship while impostors try to sabotage and eliminate them. Use teamwork, deception, and deduction to survive and uncover the truth!",
     "image": "images/mohg.jpeg",
     "url": "g/Among Us.html"
+  },
+  {
+    "title": "Amorphous +",
+    "description": "Amorphous+ is a fast-paced action game where you slice through swarms of deadly Glooples. Each unique enemy behaves differently, testing your reflexes, timing, and skill.",
+    "image": "images/fr43.jpg",
+    "url": "g/Amorphous +.html"
+  },
+  {
+    "title": "Ancient Sins",
+    "description": "Ancient Sins is a dark fantasy action game where players uncover forbidden powers buried in ancient ruins. Battle corrupted gods and shape your destiny in a world consumed by sin and shadow.",
+    "image": "images/edrftgy.jpeg",
+    "url": "g/Ancient Sins.html"
+  },
+  {
+    "title": "Angry Birds",
+    "description": "Angry Birds is a physics-based puzzle game where players launch birds to destroy structures and defeat mischievous pigs. With colorful worlds and clever level design, it blends strategy and chaos for addictive fun.",
+    "image": "images/birsa.jpeg",
+    "url": "g/Angry Birds.html"
+  },
+  {
+    "title": "Angry Birds Showdown",
+    "description": "Angry Birds Showdown is a fast-paced competitive game where players face off in real-time bird-flinging battles. Use power-ups, strategy, and precision to outsmart opponents and claim victory in explosive arenas.",
+    "image": "images/flawsw2.jpeg",
+    "url": "g/Angry Birds Showdown.html"
+  },
+  {
+    "title": "Angry Birds Space",
+    "description": "Angry Birds Space takes bird-flinging action into space with gravity-based puzzles and new cosmic challenges. Navigate planets, asteroids, and zero-gravity zones in an intergalactic battle.",
+    "image": "images/ultragamez.jpeg",
+    "url": "g/Angry Birds Space.html"
+  },
+  {
+    "title": "Animator Vs Animation Game (Special Edition)",
+    "description": "Animator Vs Animation Game (Special Edition) lets players control the animator or rebellious stick figure in an epic desktop showdown. Create, destroy, and outsmart opponents in a battle of creativity and chaos.",
+    "image": "images/dfg.png",
+    "url": "g/Animator Vs Animation Game (Special Edition).html"
+  },
+  {
+    "title": "Apple Shooter",
+    "description": "Apple Shooter is a precision-based shooting game where players aim a bow to hit apples on heads without missing. Test your accuracy, timing, and nerves in this tense target challenge.",
+    "image": "images/vgbhn.jpeg",
+    "url": "g/Apple Shooter.html"
+  },
+  {
+    "title": "Apple Worm",
+    "description": "Apple Worm is a casual puzzle game where players guide a hungry worm through mazes to eat apples. Collect fruits, avoid obstacles, and grow your worm in fun, colorful levels.",
+    "image": "images/juicew.jpeg",
+    "url": "g/Apple Worm.html"
+  },
+  {
+    "title": "Aquapark.io",
+    "description": "Aquapark.io is a thrilling water slide racing game where players speed down twisting slides to reach the finish first. Use jumps, slides, and boosts to overtake opponents in chaotic, splash-filled races.",
+    "image": "images/narvwrrffme.jpeg",
+    "url": "g/Aquapark.io.html"
+  },
+  {
+    "title": "Archery World Tour",
+    "description": "Archery World Tour is a competitive archery game where players aim and shoot at targets around the globe. Hone your precision, timing, and focus to become a champion archer in diverse arenas.",
+    "image": "images/rft.jpeg",
+    "url": "g/Archery World Tour.html"
+  },
+  {
+    "title": "Ascent",
+    "description": "Ascent is a fast-paced arcade game where players guide a rocket through obstacles, testing reflexes and precision. Collect power-ups and avoid hazards to climb higher and reach the ultimate score.",
+    "image": "images/ejfrhtg.png",
+    "url": "g/Ascent.html"
+  },
+  {
+    "title": "Assessment Examination",
+    "description": "Assessment Examination is a structured test designed to evaluate knowledge, skills, or abilities in a specific subject. It provides feedback to help identify strengths, weaknesses, and areas for improvement.",
+    "image": "images/ni3e.jpg",
+    "url": "g/Assessment Examination.html"
+  },
+  {
+    "title": "Asteroids",
+    "description": "Asteroids is a classic arcade game where players control a spaceship navigating through a field of drifting asteroids. Shoot and destroy asteroids while avoiding collisions to survive and score points.",
+    "image": "images/ale.png",
+    "url": "g/Asteroids.html"
+  },
+  {
+    "title": "Attack Hole",
+    "description": "Attack Hole is a fast-paced action game where players launch objects into a moving target to score points. Precision and timing are key to hitting the hole and achieving high scores.",
+    "image": "images/vce.jpeg",
+    "url": "g/Attack Hole.html"
+  },
+  {
+    "title": "A Small World Cup",
+    "description": "A Small World Cup is a fast-paced soccer game where players compete in tiny arenas with big action. Score goals, dodge opponents, and use power-ups to dominate the miniature pitch.",
+    "image": "images/34g.jpeg",
+    "url": "g/A Small World Cup.html"
+  },
+  {
+    "title": "Avalanche",
+    "description": "Avalanche is an intense survival game where players dodge falling rocks and debris. Move quickly, avoid obstacles, and survive as long as possible.",
+    "image": "images/ftg.jpeg",
+    "url": "g/Avalanche.html"
+  },
+  {
+    "title": "Aviamasters",
+    "description": "Aviamasters is a competitive aerial combat game where players pilot advanced aircraft. Master maneuvers, engage enemies, and dominate the skies.",
+    "image": "images/flything.jpeg",
+    "url": "g/Aviamasters.html"
+  },
+  {
+    "title": "Awesome Pirates",
+    "description": "Awesome Pirates is a swashbuckling adventure where players sail the high seas, battle rival crews, and hunt for treasure. Upgrade your ship, recruit your crew, and become the most feared pirate on the ocean.",
+    "image": "images/rf3kk.jpeg",
+    "url": "g/Awesome Pirates.html"
+  },
+  {
+    "title": "Awesome Planes",
+    "description": "Awesome Planes is a fast-paced aerial combat game where players pilot powerful aircraft. Perform daring maneuvers, defeat enemies, and dominate the skies.",
+    "image": "images/plan22.jpeg",
+    "url": "g/Awesome Planes.html"
+  },
+  {
+    "title": "Awesome Tanks",
+    "description": "Awesome Tanks is an action-packed battle game where players control powerful tanks on dynamic battlefields. Upgrade your tank, crush enemies, and dominate every fight.",
+    "image": "images/tank24.jpeg",
+    "url": "g/Awesome Tanks.html"
+  },
+  {
+    "title": "Awesome Tanks 2",
+    "description": "Awesome Tanks 2 is the thrilling sequel where players battle with upgraded tanks on intense arenas. Strategize, upgrade, and crush opponents to claim vic",
+    "image": "images/rfe5.jpeg",
+    "url": "g/Awesome Tanks 2.html"
   },
   { 
     "title": "Basket Random",
@@ -388,6 +514,12 @@
     "description": "Baldi's Basics is a creepy, retro-style horror game disguised as an old educational program. Players must solve math problems and collect notebooks while escaping the relentless teacher, Baldi.",
     "image": "images/bald3.jpg",
     "url": "g/Baldi's Basics.html"
+  },
+  { 
+    "title": "BTD1",
+    "description": "BTD1 (Bloons Tower Defense 1) is a classic strategy game where players place towers to pop waves of balloons. Plan your defenses, upgrade towers, and stop the bloons from reaching the end.",
+    "image": "images/bloon.jpeg",
+    "url": "g/BTD1.html"
   },
   { 
     "title": "Chicken CS",
@@ -716,7 +848,7 @@
   { 
     "title": "kindergarten 1",
     "description": "In Kindergarten, you relive a bizarre and darkly humorous school day filled with secrets, strange characters, and deadly surprises. Explore, experiment, and uncover the twisted mysteries hidden within the classroom!",
-    "image": "images/name.jpeg",
+    "image": "images/erfgt.jpeg",
     "url": "g/kindergarten 1.html"
   },
   { 
