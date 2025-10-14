@@ -410,7 +410,7 @@
   {
     "title": "Aquapark.io",
     "description": "Aquapark.io is a thrilling water slide racing game where players speed down twisting slides to reach the finish first. Use jumps, slides, and boosts to overtake opponents in chaotic, splash-filled races.",
-    "image": "images/narvwrrffme.jpeg",
+    "image": "images/234.png",
     "url": "g/Aquapark.io.html"
   },
   {
@@ -485,6 +485,54 @@
     "image": "images/rfe5.jpeg",
     "url": "g/Awesome Tanks 2.html"
   },
+  {
+    "title": "Babel Tower",
+    "description": "Babel Tower is a fast-paced stacking game where players build an ever-taller tower by carefully balancing blocks. The higher you go, the trickier it becomes, testing your precision and timing to reach the sky.",
+    "image": "images/2wed.jpeg",
+    "url": "g/Babel Tower.html"
+  },
+  {
+    "title": "Baby Chicco Adventure",
+    "description": "Baby Chicco Adventure is a charming platformer where you guide Baby Chicco through colorful levels filled with fun obstacles and surprises. Collect items, avoid hazards, and help Baby Chicco reach the end safely.",
+    "image": "images/biby.jpeg",
+    "url": "g/Baby Chicco Adventure.html"
+  },
+  { 
+    "title": "Backrooms",
+    "description": "Wander endless yellow halls in the Backrooms. Escape eerie rooms and avoid lurking dangers. The deeper you go, the harder it gets. Simple controls, chilling mystery.",
+    "image": "images/backrooms.jpeg",
+    "url": "g/Backrooms.html"
+  },
+  {
+    "title": "Backrooms 2D",
+    "description": "Backrooms 2D is a suspenseful horror game where you navigate endless, maze-like rooms filled with eerie sounds and lurking dangers. Every corner hides a new threat as you try to survive and find your way out.",
+    "image": "images/2de.jpeg",
+    "url": "g/Backrooms 2D.html"
+  },
+  {
+    "title": "Backyard Baseball",
+    "description": "Backyard Baseball is a fun, family-friendly sports game where kids take the field to play baseball with unique characters and quirky abilities. Swing, pitch, and score big while enjoying colorful backyard arenas.",
+    "image": "images/bakc.jpeg",
+    "url": "g/Backyard Baseball.html"
+  },
+  {
+    "title": "Bacon May Die",
+    "description": "Bacon May Die is a fast-paced action platformer where you slash, dash, and blast through hordes of enemies. With intense combat and explosive moves, survival depends on speed and skill.",
+    "image": "images/bacon2.png",
+    "url": "g/Bacon May Die.html"
+  },
+  {
+    "title": "Bad Ice Cream",
+    "description": "Bad Ice Cream is a puzzle-action game where you guide an ice cream character through mazes, collecting fruits while avoiding enemies. Use digging and blocking to outsmart foes and finish each stage.",
+    "image": "images/83g.jpeg",
+    "url": "g/Bad Ice Cream.html"
+  },
+  {
+    "title": "Bad Monday Simulator",
+    "description": "Bad Monday Simulator is a chaotic simulation game where you navigate the frustrations and absurdities of a typical Monday. Make choices, face unexpected events, and survive the day’s madness.",
+    "image": "images/laya.jpeg",
+    "url": "g/Bad Monday Simulator.html"
+  },
   { 
     "title": "Basket Random",
     "description": "Play unpredictable ragdoll basketball. Courts, balls, and rules change constantly. Score baskets before your rival does. Funny, chaotic, and competitive fun.",
@@ -496,24 +544,6 @@
     "description": "Bloxorz. Roll a rectangular block across tricky platforms and solve mind-bending puzzles. Navigate carefully, avoid falling, and reach the goal to advance through challenging levels.",
     "image": "images/bloxx.jpeg",
     "url": "g/Bloxorz.html"
-  },
-  { 
-    "title": "Backrooms",
-    "description": "Wander endless yellow halls in the Backrooms. Escape eerie rooms and avoid lurking dangers. The deeper you go, the harder it gets. Simple controls, chilling mystery.",
-    "image": "images/backrooms.jpeg",
-    "url": "g/Backrooms.html"
-  },
-  { 
-    "title": "Bad Parenting",
-    "description": "Bad parenting involves consistent neglect of a childs emotional, psychological, or physical needs, causing lasting harm regardless of intent.",
-    "image": "images/bad.jpeg",
-    "url": "g/Bad Parenting.html"
-  },
-  { 
-    "title": "Baldi's Basics",
-    "description": "Baldi's Basics is a creepy, retro-style horror game disguised as an old educational program. Players must solve math problems and collect notebooks while escaping the relentless teacher, Baldi.",
-    "image": "images/bald3.jpg",
-    "url": "g/Baldi's Basics.html"
   },
   { 
     "title": "BTD1",
