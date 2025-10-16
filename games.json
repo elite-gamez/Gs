@@ -529,9 +529,69 @@
   },
   {
     "title": "Bad Monday Simulator",
-    "description": "Bad Monday Simulator is a chaotic simulation game where you navigate the frustrations and absurdities of a typical Monday. Make choices, face unexpected events, and survive the day’s madness.",
+    "description": "Bad Monday Simulator is a chaotic simulation game where you navigate the frustrations and absurdities of a typical Monday. Make choices, face unexpected events, and survive the day's madness.",
     "image": "images/laya.jpeg",
     "url": "g/Bad Monday Simulator.html"
+  },
+  {
+    "title": "Bad Parenting",
+    "description": "Bad Parenting is a darkly comedic simulation game where your choices as a parent lead to chaotic, unexpected outcomes. Every decision shapes your child's future — for better, worse, or disaster.",
+    "image": "images/badoy.jpeg",
+    "url": "g/Bad Parenting.html"
+  },
+  {
+    "title": "Bad Piggies",
+    "description": "Bad Piggies is a creative puzzle game where you build quirky contraptions to help the pigs reach their goals. Use imagination and physics to craft machines that fly, roll, or crash spectacularly.",
+    "image": "images/jief.jpeg",
+    "url": "g/Bad Piggies.html"
+  },
+  {
+    "title": "Bad Time Simulator",
+    "description": "Bad Time Simulator is a challenging fan-made game that recreates Sans' iconic boss fight from Undertale. Test your reflexes and determination as you dodge relentless attacks in a battle of pure endurance.",
+    "image": "images/eijfv.jpeg",
+    "url": "g/Bad Time Simulator.html"
+  },
+  {
+    "title": "Baldi's Basics",
+    "description": "Baldi's Basics is a horror-edu game where you solve math problems while escaping your unsettling teacher, Baldi. Collect notebooks, avoid strange characters, and try to survive the school's twisted halls.",
+    "image": "images/baldi.jpeg",
+    "url": "g/Baldis Basics.html"
+  },
+  {
+    "title": "Baldi's Basics Remastered",
+    "description": "Baldi's Basics Remastered is an upgraded version of the classic horror-edu game with enhanced visuals, mechanics, and surprises. Solve math problems, explore eerie halls, and escape Baldi's relentless pursuit.",
+    "image": "images/mast.png",
+    "url": "g/Baldis Basics Remastered.html"
+  },
+  {
+    "title": "Baldi's Basics The Ultra Decompile",
+    "description": "Baldi's Basics: The Ultra Decompile is a fan remake that pushes the original's limits with new content and chaos. Explore a twisted, unpredictable version of Baldi's school full of surprises.",
+    "image": "images/decom.jpeg",
+    "url": "g/Baldis Basics The Ultra Decompile.html"
+  },
+  {
+    "title": "Baldi's Fun New School Ultimate",
+    "description": "Baldi's Fun New School Ultimate is a fan-made expansion with new modes, characters, and endless challenges. Explore creative levels, uncover secrets, and test your skills in Baldi's craziest school.",
+    "image": "images/orf.jpeg",
+    "url": "g/Baldis Fun New School Ultimate.html"
+  },
+  {
+    "title": "Balls And Bricks",
+    "description": "Balls And Bricks is a simple yet addictive arcade game where you bounce balls to break colorful bricks. Strategically aim and clear levels to achieve the highest score.",
+    "image": "images/ba42.jpeg",
+    "url": "g/Balls And Bricks.html"
+  },
+  {
+    "title": "Ball Blast",
+    "description": "Ball Blast is an action-packed arcade game where you shoot falling balls to break them before they reach the ground. Upgrade your cannon and aim carefully to survive longer and score higher.",
+    "image": "images/blask.jpeg",
+    "url": "g/Ball Blast.html"
+  },
+  {
+    "title": "Bandit Gunslingers",
+    "description": "Bandit Gunslingers is a fast-paced western shooter where you duel outlaws and test your quick-draw skills. Upgrade your weapons, survive ambushes, and become the ultimate gunslinger.",
+    "image": "images/slin.jpeg",
+    "url": "g/Bandit Gunslingers.html"
   },
   { 
     "title": "Basket Random",
@@ -1060,6 +1120,12 @@
     "description": "Super Mario 63 is a fan-made platformer mixing classic Mario with 64 and Sunshine. Explore levels, collect shines, and enjoy a fresh 2D adventure.",
     "image": "images/6363.jpeg",
     "url": "g/Super Mario 63.html"
+  },
+  {
+    "title": "Superhot",
+    "description": "SUPERHOT is a unique first-person shooter where time moves only when you move. Strategically plan your actions to dodge bullets and eliminate enemies in stylish, slow-motion combat.",
+    "image": "images/hott2.jpeg",
+    "url": "g/Superhot.html"
   },
   { 
     "title": "Slow Roads",
