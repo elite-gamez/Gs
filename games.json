@@ -593,6 +593,48 @@
     "image": "images/slin.jpeg",
     "url": "g/Bandit Gunslingers.html"
   },
+  {
+    "title": "Banana Simulator",
+    "description": "Banana Simulator lets you live the ridiculous life of a banana trying to survive in a world full of hungry creatures. Collect potassium, dodge dangers, and prove that even fruit can be legendary.",
+    "image": "images/hfd.jpeg",
+    "url": "g/Banana Simulator.html"
+  },
+  {
+    "title": "Bank Robbery 2",
+    "description": "Bank Robbery 2 puts you back in the action as you plan and execute high-stakes heists with precision and teamwork. Outsmart the cops, crack safes, and escape with the loot before the alarms go off.",
+    "image": "images/joku.jpeg",
+    "url": "g/Bank Robbery 2.html"
+  },
+  {
+    "title": "Barry Has a Secret",
+    "description": "Barry Has a Secret is a tense physics-based horror game where you must hide evidence of your dark deeds before the police arrive. Keep your cool, conceal the truth, and pray they don’t find out what you’ve done.",
+    "image": "images/kjerf.jpeg",
+    "url": "g/Barry Has a Secret.html"
+  },
+  {
+    "title": "BAS",
+    "description": "BAS (Battle Arena Simulator) throws you into chaotic combat where only the smartest and fastest fighters survive. Customize your warrior, master powerful moves, and dominate the arena to claim ultimate victory.",
+    "image": "images/ftg2.png",
+    "url": "g/BAS.html"
+  },
+  {
+    "title": "Baseball Bros",
+    "description": "Baseball Bros is a fast-paced sports game where you and your buddy swing for the fences in hilarious over-the-top matches. Time your hits perfectly, score big, and become the ultimate baseball duo.",
+    "image": "images/bas2.jpeg",
+    "url": "g/Baseball Bros.html"
+  },
+  {
+    "title": "Basket Battle",
+    "description": "Basket Battle is an intense, fast-paced game where players slam, shoot, and steal their way to victory on the court. Outsmart your opponents, pull off crazy dunks, and claim the championship!",
+    "image": "images/jkwed.jpeg",
+    "url": "g/Basket Battle.html"
+  },
+  {
+    "title": "Basket Bros",
+    "description": "Basket Bros is a fun, action-packed basketball game where you team up with a friend to score big and dominate the court. Dribble, dunk, and outplay your rivals in chaotic, fast-paced matches.",
+    "image": "images/fr34.jpeg",
+    "url": "g/Basket Bros.html"
+  },
   { 
     "title": "Basket Random",
     "description": "Play unpredictable ragdoll basketball. Courts, balls, and rules change constantly. Score baskets before your rival does. Funny, chaotic, and competitive fun.",
