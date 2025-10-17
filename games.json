@@ -486,6 +486,12 @@
     "url": "g/Awesome Tanks 2.html"
   },
   {
+    "title": "Blob Eater Adventure",
+    "description": "Play as a hungry blob in Blob Eater Adventure, devouring everything in your path. Grow bigger, overcome obstacles, and explore vibrant worlds in this addictive eating spree!",
+    "image": "images/wdefrg.jpeg",
+    "url": "g/Blob Eater Adventure.html"
+  },
+  {
     "title": "Babel Tower",
     "description": "Babel Tower is a fast-paced stacking game where players build an ever-taller tower by carefully balancing blocks. The higher you go, the trickier it becomes, testing your precision and timing to reach the sky.",
     "image": "images/ece.jpeg",
@@ -618,12 +624,6 @@
     "url": "g/BAS.html"
   },
   {
-    "title": "Blob Eater Adventure",
-    "description": "Play as a hungry blob in Blob Eater Adventure, devouring everything in your path. Grow bigger, overcome obstacles, and explore vibrant worlds in this addictive eating spree!",
-    "image": "images/wdefrg.jpeg",
-    "url": "g/Blob Eater Adventure.html"
-  },
-  {
     "title": "Baseball Bros",
     "description": "Baseball Bros is a fast-paced sports game where you and your buddy swing for the fences in hilarious over-the-top matches. Time your hits perfectly, score big, and become the ultimate baseball duo.",
     "image": "images/bas2.jpeg",
@@ -646,6 +646,24 @@
     "description": "Play unpredictable ragdoll basketball. Courts, balls, and rules change constantly. Score baskets before your rival does. Funny, chaotic, and competitive fun.",
     "image": "images/basket.webp",
     "url": "g/BasketRandom.html"
+  },
+  {
+    "title": "Basket Slam Dunk 2",
+    "description": "Step onto the court in Basket Slam Dunk 2 and show off your ultimate basketball skills. Perform epic dunks, outscore opponents, and dominate every match!",
+    "image": "images/45g3.jpeg",
+    "url": "g/Basket Slam Dunk 2.html"
+  },
+  {
+    "title": "Basketball FRVR",
+    "description": "Jump into fast-paced hoops action in Basketball FRVR and aim for the perfect shot. Score points, beat your high score, and enjoy endless basketball fun!",
+    "image": "images/ffrve.jpeg",
+    "url": "g/Basketball FRVR.html"
+  },
+  {
+    "title": "Basketball Legends",
+    "description": "Compete with the best in Basketball Legends and showcase your legendary skills on the court. Unlock stars, perform epic moves, and lead your team to victory!",
+    "image": "images/ojerf.jpeg",
+    "url": "g/Basketball Legends.html"
   },
   { 
     "title": "Bloxorz",
