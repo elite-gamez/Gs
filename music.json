@@ -1,14 +1,14 @@
 [
   {
+    "url": "music/Bloody Blade - Juice WRLD (Unreleased).m4a",
     "title": "Bloody Blade",
-    "url": "music/Bloody Blade - Juice WRLD (Unreleased).m4a"
+    "artist": "Juice WRLD",
+    "albumArt": "img/juu2.jpg"
   },
   {
+    "url": "music/Juice WRLD - _Legends_ (Official Audio).m4a",
     "title": "Legends",
-    "url": "music/Juice WRLD - _Legends_ (Official Audio).m4a"
-  },
-  {
-    "title": "Bye Bye",
-    "url": "music/Marshmello, Juice WRLD - Bye Bye (Lyrics).mp3"
+    "artist": "Juice WRLD",
+    "albumArt": "img/4f.jpg"
   }
 ]
