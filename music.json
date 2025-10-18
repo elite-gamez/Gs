@@ -16,5 +16,17 @@
     "title": "Bye Bye",
     "artist": "Marshmello, Juice WRLD",
     "albumArt": "img/be.jpg"
+  },
+  {
+    "url": "music/Coraline - Juice WRLD.m4a",
+    "title": "Coraline",
+    "artist": "Juice WRLD",
+    "albumArt": "img/cer.jpg"
+  },
+  {
+    "url": "music/Juice WRLD - Cheese and Dope Freestyle.m4a",
+    "title": "Cheese and Dope Freestyle",
+    "artist": "Juice WRLD",
+    "albumArt": "img/ee3.jpeg"
   }
 ]
