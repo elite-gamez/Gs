@@ -665,6 +665,42 @@
     "image": "images/ojerf.jpeg",
     "url": "g/Basketball Legends.html"
   },
+  {
+    "title": "Basketball Stars",
+    "description": "Show off your skills in Basketball Stars, facing tough opponents in intense, fast-paced matches. Dribble, shoot, and dunk your way to victory while unlocking awesome new gear and upgrades.",
+    "image": "images/ihn3e.jpeg",
+    "url": "g/Basketball Stars.html"
+  },
+  {
+    "title": "Batter Up",
+    "description": "Step up to the plate in Batter Up, where timing and precision decide every hit. Swing, score, and challenge friends in fast-paced baseball action for the ultimate victory.",
+    "image": "images/ijenff.jpeg",
+    "url": "g/Batter Up.html"
+  },
+  {
+    "title": "Battle Karts",
+    "description": "Race through chaotic tracks in Battle Karts, where speed meets explosive combat. Dodge traps, blast opponents, and claim victory in this high-octane kart showdown.",
+    "image": "images/kjer.png",
+    "url": "g/Battle Karts.html"
+  },
+  {
+    "title": "title",
+    "description": "description",
+    "image": "images/image.jpeg",
+    "url": "g/url.html"
+  },
+  {
+    "title": "Battle Simulator",
+    "description": "Step into Battle Simulator and command armies in epic, physics-based battles. Strategically deploy units and watch the chaos unfold in thrilling combat scenarios.",
+    "image": "images/tabs2.jpeg",
+    "url": "g/Battle Simulator.html"
+  },
+  {
+    "title": "Bazooka Boy",
+    "description": "Take aim and blast your way through enemies in Bazooka Boy. Dodge attacks, collect power-ups, and show off your explosive skills!",
+    "image": "images/ee34f.jpeg",
+    "url": "g/Bazooka Boy.html"
+  },
   { 
     "title": "Bloxorz",
     "description": "Bloxorz. Roll a rectangular block across tricky platforms and solve mind-bending puzzles. Navigate carefully, avoid falling, and reach the goal to advance through challenging levels.",
