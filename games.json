@@ -690,6 +690,12 @@
     "url": "g/Battle Simulator.html"
   },
   {
+    "title": "Bazooka Boy",
+    "description": "Take aim and blast your way through enemies in Bazooka Boy. Dodge attacks, collect power-ups, and show off your explosive skills!",
+    "image": "images/ee34f.jpeg",
+    "url": "g/Bazooka Boy.html"
+  },
+  {
     "title": "Bearbarians",
     "description": "This 2D action-platformer lets you lead a team of customizable bear warriors in arena battles, utilizing upgrades and different classes to reclaim your destroyed village.",
     "image": "images/rfrfee.jpeg",
@@ -702,10 +708,34 @@
     "url": "g/BERGENTRUCK 201x.html"
   },
   {
-    "title": "Bazooka Boy",
-    "description": "Take aim and blast your way through enemies in Bazooka Boy. Dodge attacks, collect power-ups, and show off your explosive skills!",
-    "image": "images/ee34f.jpeg",
-    "url": "g/Bazooka Boy.html"
+    "title": "Battle for Dream Island",
+    "description": "BFDIA 5b is a chaotic battle of wits where animated objects compete in wild challenges to avoid elimination. Players must strategize, form alliances, and outsmart rivals to become the last object standing.",
+    "image": "images/jdefrv.jpeg",
+    "url": "g/Battle for Dream Island.html"
+  },
+  {
+    "title": "Big Ice Tower Tiny Square",
+    "description": "Big Ice Tower Tiny Square is a fast-paced puzzle game where you must navigate a tiny square through towering icy obstacles. Precision and timing are key as you climb higher without slipping or falling.",
+    "image": "images/dhfdfv.jpeg",
+    "url": "g/Big Ice Tower Tiny Square.html"
+  },
+  {
+    "title": "Big Neon Tower Tiny Square",
+    "description": "Big Neon Tower Tiny Square is a vibrant, fast-paced arcade game where you guide a tiny square through towering neon obstacles. Dodge, jump, and climb carefully to reach the top without crashing.",
+    "image": "images/jddjwe.jpeg",
+    "url": "g/Big Neon Tower Tiny Square.html"
+  },
+  {
+    "title": "Big Shot Boxing",
+    "description": "Big Shot Boxing is an intense, fast-paced boxing game where you face off against tough opponents in the ring. Dodge, punch, and time your moves perfectly to become the ultimate champion.",
+    "image": "images/bnhrf.jpeg",
+    "url": "g/Big Shot Boxing.html"
+  },
+  {
+    "title": "Big Time Butter Baron",
+    "description": "Big Time Butter Baron is a quirky strategy game where you manage your own butter empire. Produce, trade, and expand wisely to become the richest butter tycoon.",
+    "image": "images/defr.jpeg",
+    "url": "g/Big Time Butter Baron.html"
   },
   { 
     "title": "Bloxorz",
